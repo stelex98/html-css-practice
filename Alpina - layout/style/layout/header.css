@@ -1,0 +1,12 @@
+header {
+    height: 77.2rem;
+    padding: 5.1rem 0 0 12.6rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../img/header-bg.png");
+}
+
+.logo {
+    width: 14.3rem;
+    height: 5.9rem;
+}

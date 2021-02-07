@@ -1,0 +1,24 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navigation__list-wrapper {
+    font-family: "Paytone One", serif;
+    color: #ffffff;
+    padding-left: 7rem;
+}
+
+.list-wrapper__list {
+    display: flex;
+    list-style: none;
+    font-size: 1.8rem;
+    font-weight: normal;
+    line-height: 2.5rem;
+    text-transform: uppercase;
+}
+
+.list__list-item:not(:first-child) {
+    padding-left: 3rem;
+}
