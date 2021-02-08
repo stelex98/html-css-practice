@@ -1,3 +1,4 @@
+/* Common styles */
 .navigation {
     display: flex;
     flex-direction: row;
@@ -6,19 +7,49 @@
 
 .navigation__list-wrapper {
     font-family: "Paytone One", serif;
-    color: #ffffff;
-    padding-left: 7rem;
 }
 
 .list-wrapper__list {
     display: flex;
     list-style: none;
+}
+
+.list__list-item:not(:first-child) {
+    cursor: pointer;
+}
+
+.list-item__link {
+    text-decoration: none;
+}
+
+/* Modificators */
+.navigation--header {
+    padding: 5.1rem 12.6rem 0;
+}
+
+.navigation__list-wrapper--header {
+    color: #ffffff;
+}
+
+.list-wrapper__list--header {
     font-size: 1.8rem;
-    font-weight: normal;
+    font-weight: 400;
     line-height: 2.5rem;
     text-transform: uppercase;
 }
 
-.list__list-item:not(:first-child) {
-    padding-left: 3rem;
+.list__list-item--header:not(:first-child) {
+    margin-left: 3rem;
+}
+
+.navigation__list-wrapper--header {
+    margin-left: 7rem;
+}
+
+.list-item__link--header {
+    color: #ffffff;
+}
+
+.inputs-control-container {
+    margin-top: 2.5rem;
 }

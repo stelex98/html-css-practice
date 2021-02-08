@@ -7,30 +7,78 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pavanam&display=swap" rel="stylesheet">
     <title>Alpina</title>
 </head>
 <body>
-    <header>
-        <section class="navigation">
+    <header class="header">
+        <section class="navigation navigation--header">
             <img
                 class = "logo"
-                src   = "./img/logo.png"
+                src   = "./img/logo.svg"
                 alt   = "Alpina logo"
             >
-            <nav class="navigation__list-wrapper">
-                <ul class="list-wrapper__list">
-                    <li class="list__list-item">about us</li>
-                    <li class="list__list-item">pricing</li>
-                    <li class="list__list-item">mobile</li>
-                    <li class="list__list-item">blog</li>
+            <nav class="navigation__list-wrapper navigation__list-wrapper--header">
+                <ul class="list-wrapper__list list-wrapper__list--header">
+                    <li class = "list__list-item list__list-item--header">
+                        <a class = "list-item__link list-item__link--header"
+                           href  = "#"
+                        >
+                            about us
+                        </a>
+                    </li>
+                    <li class = "list__list-item list__list-item--header">
+                        <a class = "list-item__link list-item__link--header"
+                           href  = "#"
+                        >
+                            pricing
+                        </a>
+                    </li>
+                    <li class = "list__list-item list__list-item--header">
+                        <a class = "list-item__link list-item__link--header"
+                           href  = "#"
+                        >
+                            mobile
+                        </a>
+                    </li>
+                    <li class = "list__list-item list__list-item--header">
+                        <a class = "list-item__link list-item__link--header"
+                           href  = "#"
+                        >
+                            blog
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </section>
-        <section class="about">
-
-        </section>
+        <div class="about-wrapper">
+            <section class="about-content">
+                <div class="about-content-wrapper">
+                    <h1 class="title about-content__title">alpine</h1>
+                    <h2 class="title about-content__subtitle">soial media marketing platform</h2>
+                    <p class="about-content__description">
+                        The core systems of record for marketing that provide a common way of orchestring the experiences
+                        across channels and applications, including operational managment and measurement, with the
+                        ultimate goal of driving customer engagement.
+                    </p>
+                    <section class="inputs-control-container">
+                        <input class="input-control input-control--email" type="text" value="Enter your work email!">
+                        <button class="button-control button-control--request-access">Request access</button>
+                    </section>
+                </div>
+            </section>
+            <footer class="about-content__footer">
+                <img class="social-media-item" src="./img/facebook.svg" alt="facebook">
+                <img class="social-media-item" src="./img/instagram.svg" alt="instagram">
+                <img class="social-media-item" src="./img/twitter.svg" alt="twitter">
+                <img class="social-media-item" src="./img/youtube.svg" alt="youtube">
+                <img class="social-media-item" src="./img/pinterest.svg" alt="pinterest">
+                <img class="social-media-item" src="./img/google.svg" alt="google">
+            </footer>
+        </div>
     </header>
-    <main></main>
-    <footer></footer>
+    <main class="main"></main>
+    <footer class="footer"></footer>
 </body>
 </html>

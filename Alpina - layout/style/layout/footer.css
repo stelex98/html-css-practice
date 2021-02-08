@@ -1,6 +1,6 @@
-footer {
+.footer {
     height: 46rem;
-    background-image: url("../../img/footer-bg.png");
+    background-image: url("../../img/footer-bg.svg");
     background-repeat: no-repeat;
     background-size: cover;
 }

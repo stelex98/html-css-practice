@@ -1,6 +1,6 @@
-main {
+.main {
     height: 166.9rem;
-    background-image: url("../../img/main-bg.png");
+    background-image: url("../../img/main-bg.svg");
     background-repeat: no-repeat;
     background-size: cover;
 }
