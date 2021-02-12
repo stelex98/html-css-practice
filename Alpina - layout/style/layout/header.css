@@ -7,8 +7,6 @@
 }
 
 .logo {
-    width: 14.3rem;
-    height: 5.9rem;
     cursor: pointer;
 }
 
@@ -16,11 +14,11 @@
     max-width: 99.4rem;
     margin: 9.4rem auto 0;
     background: linear-gradient(180deg, rgba(50, 42, 39, .2) 0%, rgba(45, 40, 40, 0.85) 50%);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid var(--gray-color);
 }
 
 .about-content {
-    padding: 7.6rem 6.5rem 0;
+    padding: 7.6rem 6.5rem 7.9rem;
 }
 
 .about-content-wrapper {
@@ -38,9 +36,9 @@
 }
 
 .about-content__description {
-    color: #ffffff;
+    color: var(--white-color);
     margin-top: 3rem;
-    font-family: "Noto Sans", serif;
+    font-family: var(--font-noto-sans-family);
     font-size: 1.6rem;
     line-height: 2.7rem;
     font-weight: 400;
@@ -50,8 +48,6 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 7.9rem;
-    height: 8.7rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    cursor: pointer;
+    padding: 2.35rem 0;
+    border-top: 1px solid var(--gray-color);
 }

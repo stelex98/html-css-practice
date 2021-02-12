@@ -6,7 +6,7 @@
 }
 
 .navigation__list-wrapper {
-    font-family: "Paytone One", serif;
+    font-family: var(--font-paytone-family);
 }
 
 .list-wrapper__list {
@@ -28,7 +28,7 @@
 }
 
 .navigation__list-wrapper--header {
-    color: #ffffff;
+    color: var(--white-color);
 }
 
 .list-wrapper__list--header {
@@ -47,7 +47,7 @@
 }
 
 .list-item__link--header {
-    color: #ffffff;
+    color: var(--white-color);
 }
 
 .inputs-control-container {

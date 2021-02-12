@@ -1,6 +1,6 @@
 .title {
-    color: #ffffff;
+    color: var(--white-color);
     text-transform: uppercase;
-    font-family: "Paytone One", serif;
+    font-family: var(--font-pavanam-family);
     font-weight: 400;
 }

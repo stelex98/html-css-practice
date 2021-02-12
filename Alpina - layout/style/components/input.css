@@ -1,19 +1,18 @@
 /* Common styles */
 .input-control {
     border-radius: 5rem;
-    border: 2px solid rgba(255, 255, 255, 0.4);
-    background: rgba(255, 255, 255, 0);
-    cursor: pointer;
+    border: 2px solid var(--gray-color);
+    background: transparent;
 }
 
 /* Modificators */
 .input-control--email {
     height: 3.6rem;
     min-width: 29.1rem;
-    font-family: "Pavanam", serif;
+    font-family: var(--font-pavanam-family);
     font-size: 1.4rem;
     line-height: 1.8rem;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.4);
+    color: var(--gray-color);
     padding: .9rem 3.1rem;
 }

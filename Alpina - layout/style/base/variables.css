@@ -1,0 +1,9 @@
+:root {
+    --white-color: #fff;
+    --red-button-color: #ff1640;
+    --gray-color: rgba(255, 255, 255, 0.2);
+
+    --font-pavanam-family: "Pavanam", serif;
+    --font-paytone-family: "Paytone One", serif;
+    --font-noto-sans-family: "Noto Sans", sans-serif;
+}

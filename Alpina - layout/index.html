@@ -15,9 +15,11 @@
     <header class="header">
         <section class="navigation navigation--header">
             <img
-                class = "logo"
-                src   = "./img/logo.svg"
-                alt   = "Alpina logo"
+                class  = "logo"
+                src    = "./img/logo.svg"
+                alt    = "Alpina logo"
+                width  = "143px"
+                height = "59px"
             >
             <nav class="navigation__list-wrapper navigation__list-wrapper--header">
                 <ul class="list-wrapper__list list-wrapper__list--header">
@@ -52,7 +54,7 @@
                 </ul>
             </nav>
         </section>
-        <div class="about-wrapper">
+        <section class="about-wrapper">
             <section class="about-content">
                 <div class="about-content-wrapper">
                     <h1 class="title about-content__title">alpine</h1>
@@ -62,10 +64,12 @@
                         across channels and applications, including operational managment and measurement, with the
                         ultimate goal of driving customer engagement.
                     </p>
-                    <section class="inputs-control-container">
-                        <input class="input-control input-control--email" type="text" value="Enter your work email!">
-                        <button class="button-control button-control--request-access">Request access</button>
-                    </section>
+                    <div class="inputs-control-container">
+                        <input class="input-control input-control--email" type="email" placeholder="Enter your work email!">
+                        <button class="button-control button-control--request-access">
+                            Request access
+                        </button>
+                    </div>
                 </div>
             </section>
             <footer class="about-content__footer">
@@ -76,7 +80,7 @@
                 <img class="social-media-item" src="./img/pinterest.svg" alt="pinterest">
                 <img class="social-media-item" src="./img/google.svg" alt="google">
             </footer>
-        </div>
+        </section>
     </header>
     <main class="main"></main>
     <footer class="footer"></footer>
