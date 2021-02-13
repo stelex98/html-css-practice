@@ -2,6 +2,7 @@
     background-image: url("../../img/main-bg.svg");
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 108px;
 }
 
 .main-content-wrapper {
@@ -140,4 +141,41 @@
     line-height: 2.1rem;
     font-family: var(--font-pavanam-family);
     color: var(--white-color)
+}
+
+.review-content-wrapper {
+    max-width: 99.2rem;
+    padding: 4rem 6.5rem;
+    margin: 0 auto;
+}
+
+.company-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    align-items: center;
+}
+
+.company-reviews {
+    display: flex;
+}
+
+.company-reviews__company-item-review {
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+}
+
+.company-item-review__title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.company-item-review__content {
+    font-family: var(--font-pavanam-family);
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: var(--black-color);
 }
