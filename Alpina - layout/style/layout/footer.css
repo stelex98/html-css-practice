@@ -27,6 +27,11 @@
 
 .social-items-wrapper {
     display: flex;
+    justify-content: flex-end;
+}
+
+.social-item:not(:last-child) {
+    margin-right: 32px;
 }
 
 .resources-content-privacy {
@@ -63,6 +68,8 @@
 }
 
 .privacy-info-wrapper {
+    display: flex;
+    justify-content: flex-end;
     font-weight: bold;
 }
 
