@@ -1,6 +1,143 @@
 .main {
-    height: 166.9rem;
     background-image: url("../../img/main-bg.svg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.main-content-wrapper {
+    max-width: 99.2rem;
+    padding: 9rem 6.5rem;
+    margin: 0 auto;
+    background: linear-gradient(180deg, rgba(50, 42, 39, 0.85) 0%, rgba(45, 40, 40, 0.95) 33.85%,
+    #2D2828 49.48%, #2D2828 68.75%, #2D2828 82.29%, #2D2828 100%);
+}
+
+.main-content__images-content {
+    display: flex;
+}
+
+.images-content__image-item {
+    position: relative;
+}
+
+.images-content__image-item:nth-child(2) {
+    z-index: 2;
+    top: -50px;
+}
+
+.images-content__image-item:first-child {
+    left: 50px;
+}
+
+.images-content__image-item:last-child {
+    right: 50px;
+}
+
+.main-content__marketing-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 61px 0;
+}
+
+.marketing-content__title {
+    text-transform: uppercase;
+    font-family: var(--font-paytone-family);
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    color: var(--white-color);
+    margin-right: 5px;
+}
+
+.pointer-wrapper {
+    width: 100%;
+    max-width: 251px;
+}
+
+.pointer-container {
+    width: 100%;
+    height: 2px;
+    background-image: url("../../img/line.svg");
+    background-size: 13px 1px;
+    background-repeat: space;
+    background-position: initial;
+}
+
+.logo-conversation-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.main-content__unread-notifications-content, .main-content__recent-notifications-content  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content__recent-notifications-content {
+    margin-top: 25px;
+}
+
+.unread-notifications-content__messages-wrapper, .recent-notifications-content__messages-wrapper {
+    max-width: 453px;
+    width: 100%;
+}
+
+.messages-wrapper__title-control-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.title-control__number-unread-messages {
+    display: inline-block;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+
+    background: var(--red-button-color);
+    color: var(--white-color);
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: var(--font-pavanam-family);
+    line-height: 2.7rem;
+}
+
+.title-control__title-text {
+    color: var(--white-color);
+    font-family: var(--font-pavanam-family);
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    margin-left: 5px;
+}
+
+.messages-wrapper__card-content-wrapper {
+    width: 100%;
+    max-width: 453px;
+}
+
+.unread-notifications-content__description-wrapper, .recent-notifications-content__description-wrapper {
+    max-width: 315px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.unread-notifications-content__title, .recent-notifications-content__title {
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+    font-family: var(--font-pavanam-family);
+    color: var(--white-color);
+    margin-bottom: 10px;
+}
+
+.unread-notifications-content__content, .recent-notifications-content__content {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    font-family: var(--font-pavanam-family);
+    color: var(--white-color)
 }
