@@ -119,6 +119,16 @@
     max-width: 453px;
 }
 
+.logo-wrapper {
+    position: relative;
+}
+
+.logo-item-status {
+    position: absolute;
+    right: -7px;
+    top: 38px;
+}
+
 .unread-notifications-content__description-wrapper, .recent-notifications-content__description-wrapper {
     max-width: 315px;
     width: 100%;
