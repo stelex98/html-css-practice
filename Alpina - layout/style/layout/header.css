@@ -1,5 +1,5 @@
 .header {
-    height: 78.8rem;
+    min-height: 78.8rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("../../img/header-bg.svg");

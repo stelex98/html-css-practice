@@ -55,7 +55,7 @@
             </nav>
         </section>
         <section class="about-wrapper">
-            <section class="about-content">
+            <div class="about-content">
                 <div class="about-content-wrapper">
                     <h1 class="title about-content__title">alpine</h1>
                     <h2 class="title about-content__subtitle">soial media marketing platform</h2>
@@ -71,23 +71,29 @@
                         </button>
                     </div>
                 </div>
-            </section>
-            <footer class="about-content__footer">
+            </div>
+            <div class="about-content__footer">
                 <img class="social-media-item" src="./img/facebook.svg" alt="facebook">
                 <img class="social-media-item" src="./img/instagram.svg" alt="instagram">
                 <img class="social-media-item" src="./img/twitter.svg" alt="twitter">
                 <img class="social-media-item" src="./img/youtube.svg" alt="youtube">
                 <img class="social-media-item" src="./img/pinterest.svg" alt="pinterest">
                 <img class="social-media-item" src="./img/google.svg" alt="google">
-            </footer>
+            </div>
         </section>
     </header>
     <main class="main">
         <section class="main-content-wrapper">
             <div class="main-content__images-content">
-                <img src="./img/image-1.svg" alt="Image one" class="images-content__image-item" height="237px" width="292.91px">
-                <img src="./img/image-2.svg" alt="Image two" class="images-content__image-item" height="237px" width="292.91px">
-                <img src="./img/image-3.svg" alt="Image three" class="images-content__image-item" height="237px" width="292.91px">
+                <div class="main-content__images-content-wrapper">
+                    <img src="./img/image-1.svg" alt="Image one" class="images-content__image-item">
+                </div>
+                <div class="main-content__images-content-wrapper">
+                    <img src="./img/image-2.svg" alt="Image two" class="images-content__image-item">
+                </div>
+                <div class="main-content__images-content-wrapper">
+                    <img src="./img/image-3.svg" alt="Image three" class="images-content__image-item">
+                </div>
             </div>
             <div class="main-content__marketing-content">
                 <span class="marketing-content__title">marketing</span>
@@ -192,7 +198,7 @@
                                 </div>
                             </div>
                             <div class="card-content">
-                                <h2 class="card__title">Thoughts on attendin...</h2>
+                                <h2 class="card__title">Thoughts on attending</h2>
                                 <p class="card__text-content">
                                     Our customers have continued to send
                                     in pictures of their finished artwork...
@@ -212,48 +218,58 @@
         </section>
         <section class="review-content-wrapper">
            <div class="company-items">
-               <img src="./img/glossier.svg" alt="Glossier logo" width="176" height="75">
-               <img src="./img/aspire.svg" alt="Aspire logo" width="176" height="75">
-               <img src="./img/nylas.svg" alt="Nylas logo" width="176" height="75">
-               <img src="./img/bitwise.svg" alt="Bitwise logo" width="176" height="75">
+               <div class="company-item-wrapper">
+                   <img src="./img/glossier.svg" alt="Glossier logo" width="176" height="75">
+               </div>
+               <div class="company-item-wrapper">
+                   <img src="./img/aspire.svg" alt="Aspire logo" width="176" height="75">
+               </div>
+               <div class="company-item-wrapper">
+                   <img src="./img/nylas.svg" alt="Nylas logo" width="176" height="75">
+               </div>
+               <div class="company-item-wrapper">
+                   <img src="./img/bitwise.svg" alt="Bitwise logo" width="176" height="75">
+               </div>
            </div>
-            <div class="company-reviews">
-                <div class="company-reviews__company-item-review">
-                    <div class="company-item-review__title">
-                        <img src="./img/symmetric-logo.svg" alt="Symmetric user logo" width="90px" height="90px">
-                        <img src="./img/symmetric.svg" alt="Symmetric company logo" width="142px" height="33px">
+            <div class="company-items-wrapper">
+                <div class="company-reviews">
+                    <div class="company-reviews__company-item-review">
+                        <div class="company-item-review__title">
+                            <img src="./img/symmetric-logo.svg" alt="Symmetric user logo" width="90px" height="90px">
+                            <img src="./img/symmetric.svg" alt="Symmetric company logo" width="142px" height="33px">
+                        </div>
+                        <div class="company-item-review__content">
+                            <p>
+                                The AMA’s definitions of marketing and marketing research are reviewed and
+                                reapproved/modified every three-years by a panel of five scholars who are
+                                active researchers.
+                            </p>
+                        </div>
                     </div>
-                    <div class="company-item-review__content">
-                        <p>
-                            The AMA’s definitions of marketing and marketing research are reviewed and
-                            reapproved/modified every three-years by a panel of five scholars who are
-                            active researchers.
-                        </p>
+                    <div class="company-reviews__company-item-review">
+                        <div class="company-item-review__title">
+                            <img src="img/digital-logo.svg" alt="Digital company logo" width="90px" height="90px">
+                            <img src="img/digital.svg" alt="Digital user logo" width="155px" height="52px">
+                        </div>
+                        <div class="company-item-review__content">
+                            <p>
+                                Marketing is the activity, set of institutions, and processes for creating,
+                                communicating, delivering, and exchanging offerings that have value for
+                                customers, clients, partners, and society at large.
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="company-reviews__company-item-review">
-                    <div class="company-item-review__title">
-                        <img src="img/digital-logo.svg" alt="Digital company logo" width="90px" height="90px">
-                        <img src="img/digital.svg" alt="Digital user logo" width="155px" height="52px">
-                    </div>
-                    <div class="company-item-review__content">
-                        <p>
-                            Marketing is the activity, set of institutions, and processes for creating,
-                            communicating, delivering, and exchanging offerings that have value for
-                            customers, clients, partners, and society at large.
-                        </p>
-                    </div>
-                </div>
-                <div class="company-reviews__company-item-review">
-                    <div class="company-item-review__title">
-                        <img src="./img/envie-logo.svg" alt="Envie user logo" width="90px" height="90px">
-                        <img src="./img/envie.svg" alt="Envie company logo" width="105px" height="50px">
-                    </div>
-                    <div class="company-item-review__content">
-                        <p>
-                            A brand is a name, term, design, symbol or any other feature that identifies one
-                            seller’s good or service as distinct from those of other sellers.
-                        </p>
+                    <div class="company-reviews__company-item-review">
+                        <div class="company-item-review__title">
+                            <img src="./img/envie-logo.svg" alt="Envie user logo" width="90px" height="90px">
+                            <img src="./img/envie.svg" alt="Envie company logo" width="105px" height="50px">
+                        </div>
+                        <div class="company-item-review__content">
+                            <p>
+                                A brand is a name, term, design, symbol or any other feature that identifies one
+                                seller’s good or service as distinct from those of other sellers.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -287,10 +303,10 @@
                     <img class="social-item" src="./img/facebook-logo.svg" alt="Facebook logo" width="12px" height="22px">
                 </div>
                 <div class="privacy-info-wrapper">
-                    <span>Terms & Privacy</span>
+                    <span class="privacy-info-title">Terms & Privacy</span>
                 </div>
                 <div class="copy-right-info-wrapper">
-                    <span> © 2019 Threads Group inc.</span>
+                    <span> &copy; 2019 Threads Group inc.</span>
                 </div>
             </div>
         </div>
