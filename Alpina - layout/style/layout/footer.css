@@ -23,6 +23,16 @@
     display: flex;
     flex-direction: column;
     padding: 0 20px;
+    list-style: none;
+}
+
+.page-items__item {
+    cursor: pointer;
+}
+
+.page-items__item:hover {
+    color: var(--gray-color);
+    transition: .3s;
 }
 
 .social-items-wrapper {

@@ -50,6 +50,11 @@
     color: var(--white-color);
 }
 
+.list-item__link--header:hover {
+    color: var(--gray-color);
+    transition: .3s;
+}
+
 .inputs-control-container {
     margin-top: 2.5rem;
 }
