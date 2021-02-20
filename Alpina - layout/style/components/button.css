@@ -39,6 +39,8 @@
 
 .title-control__button-dismiss-all {
   display: flex;
+  max-width: 120px;
+  width: 100%;
   align-items: center;
   border-radius: 5rem;
   background-image: url(../../img/card-bg.svg);

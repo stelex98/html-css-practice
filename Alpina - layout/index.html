@@ -14,6 +14,60 @@
 <body>
     <header class="header">
         <section class="navigation navigation--header">
+            <nav class="navigation__list-wrapper navigation__list-wrapper--hamburger-header">
+                <div class="menu-toggle">
+                    <!--
+                    A fake / hidden checkbox is used as click reciever,
+                    so you can use the :checked selector on it.
+                    -->
+                    <input type="checkbox" />
+
+                    <!--
+                    Some spans to act as a hamburger.
+
+                    They are acting like a real hamburger,
+                    not that McDonalds stuff.
+                    -->
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                    <!--
+                    Too bad the menu has to be inside of the button
+                    but hey, it's pure CSS magic.
+                    -->
+                    <ul class="menu">
+                        <li>
+                            <a class = "list-item__link list-item__link--header"
+                               href  = "#"
+                            >
+                                about us
+                            </a>
+                        </li>
+                        <li>
+                            <a class = "list-item__link list-item__link--header"
+                               href  = "#"
+                            >
+                                pricing
+                            </a>
+                        </li>
+                        <li>
+                            <a class = "list-item__link list-item__link--header"
+                               href  = "#"
+                            >
+                                mobile
+                            </a>
+                        </li>
+                        <li>
+                            <a class = "list-item__link list-item__link--header"
+                               href  = "#"
+                            >
+                                blog
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
             <img
                 class  = "logo"
                 src    = "./img/logo.svg"
@@ -65,14 +119,20 @@
                         ultimate goal of driving customer engagement.
                     </p>
                     <div class="inputs-control-container">
-                        <input
-                                class       = "input-control input-control--email"
-                                type        = "email"
-                                placeholder = "Enter your work email!"
-                        >
-                        <button class="button-control button-control--request-access">
-                            Request access
-                        </button>
+                        <div class="inputs-control-wrapper">
+                            <div class="inputs-control-items-wrapper inputs-control-items-wrapper--email">
+                                <input
+                                        class       = "input-control input-control--email"
+                                        type        = "email"
+                                        placeholder = "Enter your work email!"
+                                >
+                            </div>
+                            <div class="inputs-control-items-wrapper">
+                                <button class="button-control button-control--request-access">
+                                    Request access
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -163,16 +223,20 @@
             <div class="main-content__unread-notifications-content">
                 <div class="unread-notifications-content__messages-wrapper">
                     <div class="messages-wrapper__title-control-wrapper">
-                        <div class="title-control__text-info-container">
-                            <div class="title-control__number-unread-messages">1</div>
-                            <span class="title-control__title-text">
+                        <div class="title-control-wrapper-item">
+                            <div class="title-control__text-info-container">
+                                <div class="title-control__number-unread-messages">1</div>
+                                <span class="title-control__title-text">
                                 Unread notifications
                             </span>
+                            </div>
                         </div>
-                        <button class="title-control__button-dismiss-all">
-                            <img src="./img/button-icon-circle.svg" alt="Circle icon" width="26" height="25">
-                            <span class="button-dismiss-all__text">Dismiss all</span>
-                        </button>
+                        <div class="title-control-wrapper-item">
+                            <button class="title-control__button-dismiss-all">
+                                <img src="./img/button-icon-circle.svg" alt="Circle icon" width="26" height="25">
+                                <span class="button-dismiss-all__text">Dismiss all</span>
+                            </button>
+                        </div>
                     </div>
                     <div class="messages-wrapper__card-content-wrapper">
                         <div class="card">
@@ -221,18 +285,22 @@
             <div class="main-content__recent-notifications-content">
                 <div class="recent-notifications-content__messages-wrapper">
                     <div class="messages-wrapper__title-control-wrapper">
-                        <div class="title-control__text-info-container">
+                        <div class="title-control-wrapper-item">
+                            <div class="title-control__text-info-container">
                             <span class="title-control__title-text">
                                 Recent
                             </span>
+                            </div>
                         </div>
-                        <button class="title-control__button-unread">
-                            <span class="button-unread__text">Unread</span>
-                            <label class="button-unread__switch">
-                                <input type="checkbox" checked>
-                                <span class="slider round"></span>
-                            </label>
-                        </button>
+                        <div class="title-control-wrapper-item">
+                            <button class="title-control__button-unread">
+                                <span class="button-unread__text">Unread</span>
+                                <label class="button-unread__switch">
+                                    <input type="checkbox" checked>
+                                    <span class="slider round"></span>
+                                </label>
+                            </button>
+                        </div>
                     </div>
                     <div class="messages-wrapper__card-content-wrapper">
                         <div class="card">

@@ -66,7 +66,7 @@
 .logo-conversation-wrapper {
     display: flex;
     align-items: center;
-    padding: 5px;
+    padding: 10px;
 }
 
 .main-content__unread-notifications-content, .main-content__recent-notifications-content  {
@@ -86,8 +86,9 @@
 .messages-wrapper__title-control-wrapper {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
-    margin-bottom: 2.5rem;
+    margin: -5px;
 }
 
 .title-control__number-unread-messages {
@@ -113,9 +114,14 @@
     margin-left: 9px;
 }
 
+.title-control-wrapper-item {
+    padding: 5px;
+}
+
 .messages-wrapper__card-content-wrapper {
     width: 100%;
     max-width: 453px;
+    margin-top: 2.5rem;
 }
 
 .logo-wrapper {
@@ -196,4 +202,63 @@
     font-size: 1.8rem;
     line-height: 2.7rem;
     color: var(--black-color);
+}
+
+/* MEDIA QUERIES*/
+
+/* Large devices (laptops/desktops, 992px down) */
+@media only screen and (max-width: 992px) {
+    .company-items {
+        display: none;
+    }
+
+    .review-content-wrapper {
+        padding: 0 6.5rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 910px down) */
+@media only screen and (max-width: 910px) {
+    .main-content__marketing-content, .company-reviews  {
+        flex-direction: column;
+    }
+
+    .company-reviews {
+        align-items: center;
+    }
+
+    .pointer-wrapper, .logo-conversation-wrapper,
+    .unread-notifications-content__description-wrapper,
+    .recent-notifications-content__description-wrapper {
+        display: none;
+    }
+
+    .marketing-content__title {
+        margin-bottom: 10px ;
+    }
+
+    .main-content__recent-notifications-content,
+    .main-content__unread-notifications-content {
+        justify-content: center;
+    }
+
+    .company-reviews__company-item-review {
+        max-width: 600px;
+    }
+}
+
+@media only screen and (max-width: 842px) {
+    .main-content__images-content {
+        display: none;
+    }
+
+    .main-content__marketing-content {
+        padding-top: 0;
+    }
+
+    .unread-notifications-content__messages-wrapper,
+    .messages-wrapper__card-content-wrapper,
+    .recent-notifications-content__messages-wrapper {
+        max-width: 600px;
+    }
 }

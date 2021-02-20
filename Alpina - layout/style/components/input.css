@@ -8,12 +8,11 @@
 /* Modificators */
 .input-control--email {
     height: 3.6rem;
-    min-width: 28rem;
+    width: 100%;
     font-family: var(--font-pavanam-family);
     font-size: 1.4rem;
     line-height: 1.8rem;
     font-weight: 400;
     color: var(--white-color);
     padding: .9rem 3.1rem;
-    margin-right: 10px;
 }

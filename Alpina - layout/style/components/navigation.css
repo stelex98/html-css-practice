@@ -54,7 +54,3 @@
     color: var(--gray-color);
     transition: .3s;
 }
-
-.inputs-control-container {
-    margin-top: 2.5rem;
-}
