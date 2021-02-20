@@ -52,6 +52,8 @@
     width: 100%;
 }
 
+/* MEDIA QUERIES */
+
 @media only screen and (max-width: 842px) {
     .card {
         flex-direction: column;

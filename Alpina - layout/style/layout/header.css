@@ -76,9 +76,8 @@
     margin: -5px;
 }
 
-/* MEDIA QUERIES*/
+/* MEDIA QUERIES */
 
-/* Large devices (laptops/desktops, 992px down) */
 @media only screen and (max-width: 992px) {
     .about-wrapper {
         border: none;
