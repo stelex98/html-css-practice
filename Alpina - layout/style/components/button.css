@@ -90,7 +90,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--white-color);
+  background-color: var(--red-button-color);
   transition: .4s;
 }
 
