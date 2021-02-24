@@ -72,11 +72,12 @@
     position: fixed;
     width: 100%;
     left: 0;
+    top: -20px;
     text-align: center;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     transform-origin: 0 0;
-    transform: translate(-150%, 0);
+    transform: translate(0, -200%);
     margin-top: 20px;
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
     background: linear-gradient(

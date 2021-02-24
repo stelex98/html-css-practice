@@ -53,7 +53,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 2.35rem 0;
+    padding: 3rem 0;
     border-top: 1px solid var(--gray-color);
 }
 
@@ -79,9 +79,14 @@
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 992px) {
+    .header {
+        min-height: 100%;
+    }
+
     .about-wrapper {
         border: none;
-        min-height: 584px;
+        padding: 20px 0 20px;
+        margin: 0
     }
 
     .about-content__footer {
@@ -90,6 +95,14 @@
 }
 
 @media only screen and (max-width: 842px) {
+    .about-wrapper {
+        padding: 20px 0 20px;
+    }
+
+    .about-content {
+        padding: 0 5.5rem;
+    }
+
     .navigation__list-wrapper {
         display: none;
     }

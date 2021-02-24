@@ -212,8 +212,16 @@
         display: none;
     }
 
+    .main-content-wrapper {
+        padding: 10rem 2rem 3rem;
+    }
+
     .review-content-wrapper {
-        padding: 0 6.5rem;
+        padding: 0
+    }
+
+    .company-items-wrapper {
+        padding: 0 20px;
     }
 }
 
@@ -243,24 +251,32 @@
     }
 
     .company-reviews__company-item-review {
-        max-width: 600px;
+        max-width: 750px;
+    }
+
+    .unread-notifications-content__messages-wrapper,
+    .messages-wrapper__card-content-wrapper,
+    .recent-notifications-content__messages-wrapper {
+        max-width: 650px;
     }
 }
 
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 842px) {
+    .main-content-wrapper {
+        padding: 3rem 2rem;
+    }
+
+    .main {
+        padding-bottom: 50px;
+    }
+
     .main-content__images-content {
         display: none;
     }
 
     .main-content__marketing-content {
-        padding-top: 0;
-    }
-
-    .unread-notifications-content__messages-wrapper,
-    .messages-wrapper__card-content-wrapper,
-    .recent-notifications-content__messages-wrapper {
-        max-width: 600px;
+        padding: 0 0 40px;
     }
 }

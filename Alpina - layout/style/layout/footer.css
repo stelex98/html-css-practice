@@ -119,14 +119,17 @@
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 910px) {
-
-    .footer .resources-control-wrapper {
-        flex-wrap: wrap;
-        justify-content: center;
+    .resources-content {
+        flex-wrap: nowrap;
     }
 
     .resources-content-privacy {
         align-items: center;
+        margin: -10px;
+    }
+
+    .social-items-wrapper, .privacy-info-wrapper, .copy-right-info-wrapper {
+        padding: 10px;
     }
 
     .footer .thanks-container {
@@ -135,6 +138,19 @@
 }
 
 @media only screen and (max-width: 842px) {
+    .footer {
+        padding: 50px 0 0;
+        min-height: 100%;
+    }
+
+    .resources-control-wrapper {
+        flex-direction: column;
+    }
+
+    .company-reviews {
+        padding: 0 20px;
+    }
+
     .thanks-block {
         display: none;
     }
