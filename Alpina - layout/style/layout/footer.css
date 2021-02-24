@@ -23,6 +23,10 @@
     margin: -20px;
 }
 
+.resources-content--alpine {
+    margin: 0;
+}
+
 .resources-content__page-items {
     display: flex;
     flex-direction: column;
@@ -46,6 +50,20 @@
 
 .social-item:not(:last-child) {
     margin-right: 32px;
+}
+
+.social-item-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+.social-item-wrapper:hover {
+    background-color: var(--gray-color);
+    transition: .3s;
 }
 
 .social-item {

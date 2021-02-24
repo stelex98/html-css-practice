@@ -17,6 +17,7 @@
 
 .button-control--start-thread {
   display: flex;
+  justify-content: center;
   align-items: center;
   padding: 3px 15px;
   border: none;
@@ -108,7 +109,7 @@
 }
 
 input:checked + .slider {
-  background-color: var(--red-button-color);
+  background-color: var(--green-button-color);
 }
 
 input:focus + .slider {
