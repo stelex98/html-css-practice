@@ -1,0 +1,16 @@
+.button-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--red-button-color);
+    border: none;
+    border-radius: 6px;
+
+    width: 100%;
+}
+
+.search-control__item .button-control--main-section {
+    border-radius: 0 6px 6px 0;
+    max-width: 65px;
+}

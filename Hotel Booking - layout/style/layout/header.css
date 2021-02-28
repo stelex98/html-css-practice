@@ -1,6 +1,11 @@
-.header {
-    background-color: var(--white-common-background-color);
+.header__info-section-wrapper, .header__main-section-wrapper, .header__navigation-section-wrapper {
     padding: 0 var(--common-layout-padding);
+}
+
+/* ------ INFO SECTION ------ */
+
+.header__info-section-wrapper {
+    background-color: var(--white-common-background-color);
 }
 
 .header__info-section {
@@ -52,4 +57,96 @@
 
 .gift__item-gift .item-gift__icon, .gift__item-bookmark .item-bookmark__icon {
     font-size: 1.65rem;
+}
+
+/* ------ INFO MAIN SECTION  ------ */
+
+.header__main-section-wrapper {
+    background-color: var(--white-common-background-color-1);
+}
+
+.header__main-section {
+    padding: 40px 0;
+}
+
+.header__main-section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin: -10px;
+}
+
+.main-section__logo, .main-section__search-control, .main-section__user-controls {
+    padding: 10px;
+}
+
+.main-section__logo {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+}
+
+.logo__red-characters {
+    color: var(--red-text-color);
+}
+
+.search-control__item {
+    display: flex;
+    align-items: stretch;
+}
+
+.main-section__search-control {
+    max-width: 350px;
+    width: 100%;
+}
+
+.main-section__user-controls, .user-controls__user-item-control {
+    display: flex;
+    align-items: center;
+}
+
+.user-controls__user-item-control {
+    margin-left: 53px;
+}
+
+.user-controls__basket-goods-item {
+    position: relative;
+}
+
+.user-controls__basket-goods-item:after {
+    content: "2";
+    position: absolute;
+    border-radius: 50%;
+    background-color: var(--red-button-color);
+    color: var(--white-text-color);
+    width: 20px;
+    height: 20px;
+    font-size: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    top: -12px;
+    left: 15px;
+}
+
+.user-item-control__name {
+    margin-left: 18px;
+}
+
+.user-item-control__arrow-down {
+    margin-left: 24px;
+}
+
+/* ------ INFO NAVIGATION SECTION  ------ */
+
+.header__navigation-section-wrapper {
+    background-color: var(--blue-common-background-color);
+}
+
+.header__navigation-section {
+    padding: 31px 0;
 }

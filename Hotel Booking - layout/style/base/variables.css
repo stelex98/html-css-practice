@@ -3,7 +3,13 @@
     --white-color: #fff;
     --black-color: #000;
     --red-button-color: #ec1f46;
+
+    /* Text colors */
     --blue-text-color: #007adf;
+
+    --white-text-color: #ffffff;
+
+    --red-text-color: #ec1f46;
 
     --gray-text-color-1: #333333;
 
@@ -14,6 +20,7 @@
     /* Background colors */
     --blue-common-background-color: #0a223d;
     --white-common-background-color: #f5fafe;
+    --white-common-background-color-1: #fff;
 
     /* Base paddings */
     --common-layout-padding: 168px;
