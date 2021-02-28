@@ -1,0 +1,55 @@
+.header {
+    background-color: var(--white-common-background-color);
+    padding: 0 var(--common-layout-padding);
+}
+
+.header__info-section {
+    padding: 22px 0;
+
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+
+.header__info-section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: -10px;
+}
+
+.info-section__help-wrapper, .info-section__gift-wrapper {
+    padding: 10px;
+}
+
+.info-section__gift {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.gift__item-gift, .gift__item-bookmark {
+    display: flex;
+    align-items: center;
+}
+
+.item-gift__text, .item-bookmark__text {
+    margin-left: 21px;
+}
+
+.gift__item-bookmark {
+    margin-left: 99px;
+}
+
+.help__item-phone {
+    margin-left: 10px;
+}
+
+.help__item-questions {
+    font-weight: bold;
+}
+
+.gift__item-gift .item-gift__icon, .gift__item-bookmark .item-bookmark__icon {
+    font-size: 1.65rem;
+}

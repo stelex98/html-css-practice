@@ -14,4 +14,7 @@
     /* Background colors */
     --blue-common-background-color: #0a223d;
     --white-common-background-color: #f5fafe;
+
+    /* Base paddings */
+    --common-layout-padding: 168px;
 }
