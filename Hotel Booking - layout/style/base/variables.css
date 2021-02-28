@@ -1,0 +1,17 @@
+:root {
+    /* Common colors */
+    --white-color: #fff;
+    --black-color: #000;
+    --red-button-color: #ec1f46;
+    --blue-text-color: #007adf;
+
+    --gray-text-color-1: #333333;
+
+    --gray-text-color-light-1: #333333;
+    --gray-text-color-light-2: #bdbdbd;
+    --gray-text-color-light-3: #e0e0e0;
+
+    /* Background colors */
+    --blue-common-background-color: #0a223d;
+    --white-common-background-color: #f5fafe;
+}
