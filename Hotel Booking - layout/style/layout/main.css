@@ -1,0 +1,53 @@
+.main__main-content-wrapper {
+    padding: 18px var(--common-layout-padding) 70px;
+}
+
+/*----- CHIPS INFO -----*/
+
+.main__chips-info {
+    font-size: 1rem;
+}
+
+/*----- HOTEL INFO -----*/
+
+.hotel-title-container {
+    padding: 17px 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.hotel-title__info-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-block__title {
+    display: flex;
+    align-items: center;
+}
+
+.info-block__title .title--flash-offer {
+    max-height: 20px;
+    margin-left: 14px;
+}
+
+.title__text {
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    margin-top: 5px;
+}
+
+.ratings-block__title {
+    font-size: .8rem;
+}
+
+.mark__average-mark {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+.mark__max-mark {
+    font-size: 1rem;
+}

@@ -1,0 +1,11 @@
+.info-chips-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--red-button-color);
+    color: var(--white-text-color);
+    border-radius: 4px;
+    padding: 7px 7px;
+}
