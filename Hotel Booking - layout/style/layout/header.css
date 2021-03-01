@@ -1,6 +1,7 @@
-.header__info-section-wrapper, .header__main-section-wrapper, .header__navigation-section-wrapper {
-    padding: 0 var(--common-layout-padding);
-}
+/*.header__info-section-wrapper, .header__main-section-wrapper, .header__navigation-section-wrapper {*/
+/*    max-width: 1100px;*/
+/*    margin: auto;*/
+/*}*/
 
 /* ------ INFO SECTION ------ */
 

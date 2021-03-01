@@ -4,6 +4,7 @@
     justify-content: center;
 
     background-color: var(--red-button-color);
+    color: var(--white-text-color);
     border: none;
     border-radius: 6px;
 
@@ -13,4 +14,12 @@
 .search-control__item .button-control--main-section {
     border-radius: 0 6px 6px 0;
     max-width: 65px;
+}
+
+.button--view-other-options {
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    padding: 13px 84px;
+    min-width: 245px;
+    max-height: 45px;
 }

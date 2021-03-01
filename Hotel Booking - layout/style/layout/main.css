@@ -1,15 +1,18 @@
-.main__main-content-wrapper {
-    padding: 18px var(--common-layout-padding) 70px;
-}
+/*.main__main-content-wrapper {*/
+/*    max-width: 1100px;*/
+/*    margin: auto;*/
+/*}*/
 
 /*----- CHIPS INFO -----*/
 
 .main__chips-info {
+    margin-top: 17px;
     font-size: 1rem;
 }
 
 /*----- HOTEL INFO -----*/
 
+/* HOTEL INFO TITLE */
 .hotel-title-container {
     padding: 17px 0 24px;
     display: flex;
@@ -50,4 +53,97 @@
 
 .mark__max-mark {
     font-size: 1rem;
+}
+
+/* HOTEL SLIDER/PRICE/MAP INFO */
+.hotel-common-info-container {
+    display: flex;
+    justify-content: space-between;
+
+    margin: -15px;
+}
+
+.hotel-slider-info {
+    padding: 15px;
+}
+
+.hotel-slider-info__slider-container {
+    display: flex;
+    flex-basis: 730px;
+}
+
+.hotel-map-price-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    min-width: 350px;
+    padding: 15px;
+}
+
+.hotel-map-price-info__price-info, .hotel-map-price-info__map-info {
+    width: 100%;
+}
+
+.price-info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-info__price-count, .price-info__guests-count, .guests-count__text-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.hotel-map-price-info__price-info {
+    padding: 29px 26px;
+    background-color: var(--blue-common-background-color);
+    border-radius: 8px;
+    color: var(--white-text-color);
+}
+
+.hotel-map-price-info__map-info {
+    display: flex;
+}
+
+.price-count__title_price {
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+
+.price-count__clarify-1 {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+
+.price-count__text_price {
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    font-weight: 800;
+}
+
+.price-count__clarify-2 {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+
+    margin-top: 9px;
+}
+
+.price-info__guests-count {
+    justify-content: space-between;
+    align-content: center;
+}
+
+.text-info__info-block {
+    display: flex;
+    align-items: center;
+}
+
+.price-info__button-container {
+    margin-top: 17px;
+}
+
+.text-info__info-block span {
+    margin-right: 5px;
 }
