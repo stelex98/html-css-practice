@@ -147,3 +147,7 @@
 .text-info__info-block span {
     margin-right: 5px;
 }
+
+.main__hotel-navigation {
+   padding: 65px 0;
+}

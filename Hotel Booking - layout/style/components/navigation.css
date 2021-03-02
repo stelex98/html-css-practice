@@ -17,13 +17,12 @@
 .navigation-link {
     text-decoration: none;
     color: var(--white-text-color);
+    position: relative;
 }
 
 .navigation-link:hover {
     color: var(--red-text-color);
     transition: .3s;
-
-    position: relative;
 }
 
 .navigation-link:after {
@@ -41,4 +40,18 @@
 .navigation-link:hover:after {
     transition: .3s;
     transform: scaleX(1);
+}
+
+li a.navigation-link--active {
+    color: var(--red-text-color);
+}
+
+.navigation-link--active:after {
+    transform: scaleX(1);
+}
+
+.navigation-link--hotel-navigation {
+    color: var(--black-text-color);
+    font-size: 1.4rem;
+    line-height: 1.8rem;
 }
