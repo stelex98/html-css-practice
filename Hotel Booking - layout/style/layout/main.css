@@ -10,7 +10,16 @@
     font-size: 1rem;
 }
 
-/*----- HOTEL INFO -----*/
+.chips-item {
+    text-decoration: none;
+    color: var(--black-text-color);
+}
+
+.chips-item:hover {
+    text-decoration: underline;
+}
+
+    /*----- HOTEL INFO -----*/
 
 /* HOTEL INFO TITLE */
 .hotel-title-container {
@@ -28,6 +37,7 @@
 .info-block__title {
     display: flex;
     align-items: center;
+    margin-top: 5px;
 }
 
 .info-block__title .title--flash-offer {
@@ -39,7 +49,6 @@
     text-transform: uppercase;
     font-size: 2.4rem;
     line-height: 3rem;
-    margin-top: 5px;
 }
 
 .ratings-block__title {
@@ -70,6 +79,8 @@
 .hotel-slider-info__slider-container {
     display: flex;
     flex-basis: 730px;
+
+    border-radius: 8px;
 }
 
 .hotel-map-price-info {
@@ -138,6 +149,10 @@
 .text-info__info-block {
     display: flex;
     align-items: center;
+}
+
+span.info-block__icon {
+    font-size: 18px;
 }
 
 .price-info__button-container {
