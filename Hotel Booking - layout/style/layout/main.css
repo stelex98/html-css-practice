@@ -234,6 +234,10 @@ span.info-block__icon {
     margin-top: 65px;
 }
 
+.card-container--second {
+    margin-top: 0;
+}
+
 .image-blue-haven {
     height: 100%;
 }
