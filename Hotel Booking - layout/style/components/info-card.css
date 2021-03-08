@@ -35,16 +35,16 @@
     margin-top: 34px;
 }
 
-.card-info-travel-info__info-item {
+.card-info-travel-info__info-item, .card-info-two-travel-info__info-item {
     display: flex;
     align-items: center;
 }
 
-.card-info-travel-info__info-item:not(:last-child) {
+.card-info-travel-info__info-item:not(:last-child), .card-info-two-travel-info__info-item:not(:last-child) {
     margin-bottom: 11px;
 }
 
-.card-info-travel-info__info-item .info-item-icon {
+.card-info-travel-info__info-item .info-item-icon, .card-info-two-travel-info__info-item .info-item-icon  {
     margin-right: 17px;
     font-size: 1.5rem;
 }
@@ -52,6 +52,7 @@
 .card-info-book-block {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 
     margin-top: 37px;
 }
@@ -76,4 +77,39 @@
 .button-control-container {
     width: 120px;
     height: 40px;
+}
+
+.card-type-two {
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 8px;
+    background-color: var(--blue-common-background-color);
+}
+
+/* Type two */
+
+.card-info-two-title {
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+}
+
+.card-info-two-travel-info {
+    margin-top: 30px;
+}
+
+.card-info-two-content {
+    display: flex;
+    flex-direction: column;
+
+    padding: 30px 36px;
+    color: var(--white-text-color);
+}
+
+.card-info-two-book-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    margin-top: 30px;
 }

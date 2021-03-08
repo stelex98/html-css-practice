@@ -224,14 +224,22 @@ span.info-block__icon {
     display: flex;
     flex-direction: column;
 
-    margin-top: 65px;
+    margin: -15px;
 }
 
 .card-container {
     display: flex;
     justify-content: space-between;
+
+    margin-top: 65px;
 }
 
 .image-blue-haven {
     height: 100%;
+}
+
+.card-type-wrapper{
+    display: flex;
+
+    padding: 15px;
 }
