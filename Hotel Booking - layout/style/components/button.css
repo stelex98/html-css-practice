@@ -24,3 +24,11 @@
     min-width: 245px;
     max-height: 45px;
 }
+
+.button-control-book-now {
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    padding: 11px 27px;
+    min-width: 120px;
+    max-height: 40px;
+}

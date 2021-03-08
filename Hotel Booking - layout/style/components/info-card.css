@@ -1,0 +1,79 @@
+.card-type-one {
+    display: flex;
+
+    border-radius: 8px;
+    background-color: var(--blue-common-background-color);
+}
+
+.card-info-content {
+    display: flex;
+    flex-direction: column;
+
+    padding: 47px 44px;
+    color: var(--white-text-color);
+}
+
+.card-info-title {
+    margin-top: 9px;
+
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+}
+
+.card-info-content__text {
+    max-width: 300px;
+    margin-top: 27px;
+
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+}
+
+.card-info-travel-info {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 34px;
+}
+
+.card-info-travel-info__info-item {
+    display: flex;
+    align-items: center;
+}
+
+.card-info-travel-info__info-item:not(:last-child) {
+    margin-bottom: 11px;
+}
+
+.card-info-travel-info__info-item .info-item-icon {
+    margin-right: 17px;
+    font-size: 1.5rem;
+}
+
+.card-info-book-block {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 37px;
+}
+
+.price-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.old-price {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+
+    text-decoration: line-through;
+}
+
+.current-price {
+    font-size: 2.4rem;
+    line-height: 3rem;
+}
+
+.button-control-container {
+    width: 120px;
+    height: 40px;
+}
