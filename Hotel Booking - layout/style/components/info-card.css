@@ -117,7 +117,7 @@
     position: relative;
 }
 
-:after {
+.card-info-two-background-image:after {
     position: absolute;
     content: "Flash Offer";
     color: var(--white-text-color);
