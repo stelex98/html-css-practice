@@ -5,11 +5,15 @@
     background-color: var(--blue-common-background-color);
 }
 
+.card-info-background-image {
+    display: flex;
+}
+
 .card-info-content {
     display: flex;
     flex-direction: column;
 
-    padding: 47px 44px;
+    padding: 44px 47px 21px 30px;
     color: var(--white-text-color);
 }
 
@@ -94,15 +98,19 @@
     line-height: 2.3rem;
 }
 
+.card-info-two-background-image {
+    display: flex;
+}
+
 .card-info-two-travel-info {
-    margin-top: 30px;
+    margin-top: 24px;
 }
 
 .card-info-two-content {
     display: flex;
     flex-direction: column;
 
-    padding: 30px 36px;
+    padding: 32px 30px 21px 25px;
     color: var(--white-text-color);
 }
 
@@ -111,5 +119,5 @@
     justify-content: space-between;
     align-items: flex-end;
 
-    margin-top: 30px;
+    margin-top: 24px;
 }
