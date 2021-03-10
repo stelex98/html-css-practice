@@ -7,6 +7,20 @@
 
 .card-info-background-image {
     display: flex;
+    position: relative;
+}
+
+.card-info-background-image:after {
+    position: absolute;
+    content: "Flash Offer";
+    color: var(--white-text-color);
+    padding: 8px 11px;
+    top: 26px;
+    width: 95px;
+    height: 30px;
+    background-color: var(--red-button-color);
+    font-size: 1.2rem;
+    line-height: 1.5rem;
 }
 
 .card-info-content {
@@ -100,6 +114,20 @@
 
 .card-info-two-background-image {
     display: flex;
+    position: relative;
+}
+
+:after {
+    position: absolute;
+    content: "Flash Offer";
+    color: var(--white-text-color);
+    padding: 4px 9px;
+    top: 26px;
+    width: 60px;
+    height: 18px;
+    background-color: var(--red-button-color);
+    font-size: .8rem;
+    line-height: 1rem;
 }
 
 .card-info-two-travel-info {
