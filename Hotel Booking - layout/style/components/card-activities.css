@@ -1,0 +1,35 @@
+.card-activities {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    max-width: 255px;
+    min-height: 255px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 24px 26px;
+}
+
+.card-activities__title__text {
+    color: var(--white-common-background-color);
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin-bottom: 18px;
+}
+
+.card-activities--one {
+    background-image: url("../../img/main/other-activities/other-activities-bg-1.svg");
+}
+
+.card-activities--two {
+    background-image: url("../../img/main/other-activities/other-activities-bg-2.svg");
+}
+
+.card-activities--three {
+    background-image: url("../../img/main/other-activities/other-activities-bg-3.svg");
+}
+
+.card-activities--forth {
+    background-image: url("../../img/main/other-activities/other-activities-bg-4.svg");
+}
