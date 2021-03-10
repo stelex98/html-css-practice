@@ -32,3 +32,19 @@
     min-width: 120px;
     max-height: 40px;
 }
+
+.button-control--newsletter {
+    padding: 19px 33px;
+    max-width: 65px;
+    border-radius: 0 6px 6px 0;
+    line-height: 1.5rem;
+    color: var(--gray-text-color-light-3);
+}
+
+.input-control--newsletter {
+    padding: 19px 33px;
+    border-radius: 6px 0 0 6px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(--gray-text-color-light-3);
+}
