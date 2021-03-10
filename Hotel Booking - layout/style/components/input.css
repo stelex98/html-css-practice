@@ -11,3 +11,12 @@
 .input-control--main-section {
     padding: 1.2rem 2.3rem;
 }
+
+.input-control--newsletter {
+    padding: 19px 33px;
+    border-radius: 6px 0 0 6px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    max-width: 350px;
+    color: var(--gray-text-color-light-3);
+}
