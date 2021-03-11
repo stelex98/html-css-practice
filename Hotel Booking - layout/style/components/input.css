@@ -18,5 +18,12 @@
     font-size: 1.4rem;
     line-height: 1.8rem;
     max-width: 350px;
-    color: var(--gray-text-color-light-3);
+}
+
+.input-control--newsletter::placeholder, .input-control--footer-section::placeholder {
+    color: var(--gray-text-color-light-2);
+}
+
+.input-control--footer-section {
+    padding: 1.8rem 2.3rem;
 }

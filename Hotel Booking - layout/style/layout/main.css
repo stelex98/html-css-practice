@@ -65,6 +65,7 @@
 }
 
 /* HOTEL SLIDER/PRICE/MAP INFO */
+
 .hotel-common-info-container {
     display: flex;
     justify-content: space-between;
@@ -207,6 +208,10 @@ span.info-block__icon {
 
 /* OTHER PACKAGES */
 
+.other-activities-wrapper {
+    padding: 60px 90px;
+}
+
 .other-packages {
     padding: 65px 0;
 }
@@ -218,6 +223,12 @@ span.info-block__icon {
     font-size: 3.6rem;
     line-height: 4.5rem;
     text-transform: uppercase;
+}
+
+.title-text--other-packages {
+    margin-bottom: 65px;
+    font-size: 3.6rem;
+    line-height: 4.5rem;
 }
 
 .card-wrapper {
@@ -407,8 +418,7 @@ span.info-block__icon {
     display: flex;
 }
 
-.title__text {
-    margin-top: 60px;
+.title__text--other-activities {
     font-size: 2.4rem;
     line-height: 3rem;
 }
@@ -424,6 +434,6 @@ span.info-block__icon {
 }
 
 .cards-wrapper {
-    margin: 60px 0;
+    margin: 60px 0 0;
 }
 

@@ -12,6 +12,11 @@
     width: 100%;
 }
 
+.button-control:hover {
+    opacity: 0.8;
+    transition: .4s;
+}
+
 .search-control__item .button-control--main-section {
     border-radius: 0 6px 6px 0;
     max-width: 65px;
@@ -47,4 +52,10 @@
 
     font-size: 1.2rem;
     line-height: 1.6rem;
+}
+
+.button-control--send-message {
+    padding: 18px 65px;
+
+    max-width: 160px;
 }

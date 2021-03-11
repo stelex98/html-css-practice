@@ -1,0 +1,10 @@
+.textarea-control {
+    padding: 18px 23px;
+
+    border-radius: 4px;
+}
+
+
+.textarea-control::placeholder {
+    color: var(--gray-text-color-light-2);
+}

@@ -1,12 +1,7 @@
 .footer-wrapper {
     background-color: var(--blue-common-background-color);
-}
 
-.footer-container {
-    display: flex;
-    flex-direction: column;
-
-    padding: 108px 0 50px;
+    padding: 108px 0 46px;
 }
 
 .footer__links-container {
@@ -91,4 +86,145 @@
 
 .social-network-container--social-item:not(:last-child) {
     margin-right: 12px;
+}
+
+.footer__info-form-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-details__title {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-details__title__text {
+    font-size: 1.8rem;
+    color: var(--white-text-color);
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+}
+
+.footer-container-info-form-wrapper {
+    margin-top: 108px;
+}
+
+.contact-details__sub-title__text {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+
+    color: var(--gray-text-color-light-2);
+
+    margin-bottom: 15px;
+}
+
+.contact-details__content {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.content__content-item {
+    display: flex;
+    align-items: flex-start;
+
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+
+    max-width: 490px;
+
+    color: var(--gray-text-color-light-2);
+}
+
+.content-item__phone-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.content__content-item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.content__content-item .material-icons {
+    font-size: 1.7rem;
+    color: var(--gray-text-color-light-2);
+
+    margin-right: 21px;
+}
+
+.form-send-message-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-send-message-control__title__text {
+    color: var(--white-text-color);
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+}
+
+.control-inputs-container {
+    margin-top: 34px;
+
+    display: flex;
+}
+
+.inputs-container {
+    margin: -15px;
+
+    display: flex;
+    flex-grow: 1;
+}
+
+.input-wrapper {
+    padding: 15px;
+
+    display: flex;
+    flex-grow: 1;
+}
+
+.message-area-control-container {
+    margin-top: 15px;
+}
+
+.button-control-container-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.button-control-container__remark {
+   color: var(--gray-text-color-light-2);
+}
+
+.info-form-container__policy-pay-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    margin-top: 102px;
+}
+
+.policy-container__policy-item {
+    text-decoration: none;
+    color: var(--gray-text-color-light-2);
+}
+
+.policy-container span:not(:last-child) {
+    margin-right: 15px;
+}
+
+.policy-container__policy-item:hover {
+    color: var(--red-text-color);
+    transition: .4s;
+}
+
+.pay-methods-container {
+    position: absolute;
+    right: 0;
+    top: -5px;
 }
