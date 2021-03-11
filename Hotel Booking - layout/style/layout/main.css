@@ -5,8 +5,11 @@
 
 /*----- CHIPS INFO -----*/
 
+.chips-wrapper {
+    padding: 15px;
+}
+
 .main__chips-info {
-    margin-top: 17px;
     font-size: 1rem;
 }
 
