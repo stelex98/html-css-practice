@@ -37,6 +37,14 @@
     flex-basis: 230px;
 }
 
+.container-info__title {
+    color: var(--red-text-color);
+    margin-bottom: 21px;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    font-weight: normal;
+}
+
 .card__ul-item {
     list-style: none;
 }
