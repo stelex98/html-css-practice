@@ -18,7 +18,7 @@
     color: var(--black-text-color);
 }
 
-.chips-item:hover {
+.chips-item:not(:last-child):hover {
     text-decoration: underline;
 }
 
@@ -253,7 +253,7 @@ span.info-block__icon {
 .card-type-wrapper{
     display: flex;
 
-    padding: 15px;
+    padding: 13px;
 }
 
 /* PEOPLE REVIEW */

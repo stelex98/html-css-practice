@@ -10,10 +10,13 @@
     padding: 16px 24px;
     font-size: 1.4rem;
     line-height: 1.8rem;
+
+    border-radius: 4px 4px 0 0;
 }
 
 .card__main {
     padding: 28px 25px;
+    min-height: 200px;
 
     background-color: var(--white-color);
 }
@@ -49,10 +52,12 @@
 
 .card__li-item > span  {
     margin-right: 25px;
+    font-size: 1.4rem;
 }
 
 .li-item__text {
     max-width: 168px;
+    color: var(--gray-text-color-light-1);
 }
 
 .text__text-note {

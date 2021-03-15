@@ -111,9 +111,7 @@
 .user-controls__link {
     text-decoration: none;
     color: var(--black-text-color);
-}
 
-.user-controls__user-item-control {
     margin-left: 53px;
 }
 
