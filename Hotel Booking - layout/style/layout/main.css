@@ -94,6 +94,7 @@
 
     min-width: 350px;
     padding: 15px;
+    margin: -15px;
 }
 
 .hotel-map-price-info__price-info, .hotel-map-price-info__map-info {
@@ -411,10 +412,6 @@ span.info-block__icon {
     color: var(--white-common-background-color);
 }
 
-.search-control__item {
-    width: 455px;
-}
-
 
 /* Other Activities */
 .other-activities__title {
@@ -440,3 +437,103 @@ span.info-block__icon {
     margin: 60px 0 0;
 }
 
+.hotel-map-price-info-wrapper {
+    padding: 15px;
+}
+
+/* MOBILE VERSION */
+
+@media only screen and (max-width: 1110px) {
+    .content-hotel-wrapper, .navigation-hotel-wrapper, .package-info-hotel-wrapper, .other-packages-wrapper,
+    .people-reviews-wrapper, .subscribe-wrapper
+    {
+        padding: 0 40px;
+    }
+
+    .chips-wrapper {
+        padding: 15px 40px;
+    }
+
+    .hotel-title-container {
+        justify-content: space-evenly;
+    }
+
+    .hotel-slider-info__slider-container {
+        flex-basis: 950px;
+    }
+
+    .hotel-slider-info__slider-container > img {
+        width: 100%;
+    }
+
+    .hotel-common-info-container {
+        flex-direction: column;
+    }
+
+    .hotel-map-price-info {
+        flex-direction: row;
+    }
+
+    .hotel-slider-info {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hotel-map-price-info {
+       display: flex;
+        justify-content: space-evenly;
+    }
+
+    .hotel-map-price-info__price-info, .hotel-map-price-info__map-info {
+        width: auto;
+    }
+
+    .card-container--second {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card-container {
+        justify-content: center;
+    }
+
+    .card-type-wrapper-second {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .hotel-map-price-info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hotel-map-price-info-wrapper {
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+    }
+
+    .hotel-map-price-info__price-info {
+        flex-basis: 550px;
+    }
+
+    .price-info-container {
+        justify-content: space-evenly;
+    }
+
+    .price-info__button-container {
+        width: 300px;
+        margin: 30px auto 0;
+    }
+
+    .hotel-map-price-info__map-info > img {
+        display: flex;
+        flex-grow: 1;
+    }
+
+    .hotel-map-price-info__map-info {
+        justify-content: center;
+        flex-basis: 550px;
+    }
+}

@@ -99,7 +99,7 @@
 }
 
 .main-section__search-control {
-    max-width: 350px;
+    max-width: 450px;
     width: 100%;
 }
 
@@ -153,4 +153,21 @@
 
 .header__navigation-section {
     padding: 31px 0;
+}
+
+/* MOBILE VERSION */
+
+@media only screen and (max-width: 1110px) {
+
+    .header__navigation-section-wrapper {
+        padding: 0 40px;
+    }
+
+    .header__info-section-container {
+        justify-content: center;
+    }
+
+    .header__main-section-container {
+        justify-content: space-around;
+    }
 }

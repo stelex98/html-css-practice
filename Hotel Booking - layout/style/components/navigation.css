@@ -55,3 +55,25 @@ li a.navigation-link--active {
     font-size: 1.4rem;
     line-height: 1.8rem;
 }
+
+
+/* MOBILE VERSION */
+
+@media only screen and (max-width: 1110px) {
+    .header__navigation-section {
+        padding: 10px 0;
+    }
+
+    .navigation-list {
+        margin: -10px;
+    }
+
+    .navigation-item {
+        padding: 10px;
+    }
+
+    .navigation-list {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}

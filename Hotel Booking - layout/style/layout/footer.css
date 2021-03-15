@@ -228,3 +228,20 @@
     right: 0;
     top: -5px;
 }
+
+@media only screen and (max-width: 1110px) {
+    .footer-wrapper {
+        padding: 50px 40px;
+    }
+
+    .footer-container-links-wrapper {
+         display: flex;
+         justify-content: center;
+    }
+
+    .footer__links-container, .footer__info-form-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

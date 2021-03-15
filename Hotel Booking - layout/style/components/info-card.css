@@ -149,3 +149,27 @@
 
     margin-top: 24px;
 }
+
+@media only screen and (max-width: 800px) {
+    .card-type-one {
+        display: flex;
+        /*flex-direction: column;*/
+    }
+
+    .image-blue-haven {
+        width: 100%;
+    }
+
+    .other-activities-wrapper {
+        padding: 20px 30px;
+    }
+
+    .other-activities__title {
+        justify-content: center;
+    }
+
+    .cards-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
