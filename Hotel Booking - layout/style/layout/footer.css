@@ -310,4 +310,8 @@
     .button-control-container__remark {
         padding: 5px;
     }
+
+    .info-form-container__policy-pay-container {
+        margin-top: 30px
+    }
 }
