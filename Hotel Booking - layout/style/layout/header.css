@@ -96,6 +96,9 @@
 .search-control__item {
     display: flex;
     align-items: stretch;
+
+    min-width: 320px;
+    max-width: 450px;
 }
 
 .main-section__search-control {

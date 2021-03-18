@@ -2,6 +2,9 @@
     padding: 18px 23px;
 
     border-radius: 4px;
+    width: 100%;
+    min-height: 125px;
+    max-width: 500px;
 }
 
 

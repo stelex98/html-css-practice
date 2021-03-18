@@ -153,7 +153,7 @@
 @media only screen and (max-width: 800px) {
     .card-type-one {
         display: flex;
-        /*flex-direction: column;*/
+        flex-direction: column;
     }
 
     .image-blue-haven {
@@ -171,5 +171,16 @@
     .cards-container {
         flex-wrap: wrap;
         justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .card-info-two-book-block, .card-info-book-block {
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .button-control-container {
+        margin-top: 15px;
     }
 }

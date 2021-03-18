@@ -44,7 +44,7 @@
 }
 
 .info-block__title .title--flash-offer {
-    max-height: 20px;
+    max-height: 35px;
     margin-left: 14px;
 }
 
@@ -92,7 +92,7 @@
     flex-direction: column;
     justify-content: space-between;
 
-    min-width: 350px;
+    min-width: 320px;
     padding: 15px;
     margin: -15px;
 }
@@ -386,15 +386,11 @@ span.info-block__icon {
 
     color: var(--white-color);
 
-    position: absolute;
     z-index: 1;
-    left: 20%;
 }
 
 .subscribe__control-input {
-    position: absolute;
     z-index: 1;
-    right: 23%;
 }
 
 .text-item {
@@ -439,6 +435,10 @@ span.info-block__icon {
 
 .hotel-map-price-info-wrapper {
     padding: 15px;
+}
+
+.image-belle-mare {
+    width: 100%;
 }
 
 /* MOBILE VERSION */
@@ -488,6 +488,14 @@ span.info-block__icon {
         width: auto;
     }
 
+    .slider-review-container:before {
+        left: 5%;
+    }
+
+    .slider-review-container:after {
+        right: 5%;
+    }
+
     .card-container--second {
         flex-wrap: wrap;
         justify-content: center;
@@ -535,5 +543,46 @@ span.info-block__icon {
     .hotel-map-price-info__map-info {
         justify-content: center;
         flex-basis: 550px;
+    }
+
+    .subscribe {
+        flex-direction: column;
+    }
+
+    .text-item {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+     .hotel-title-container {
+         flex-wrap: wrap;
+     }
+
+    .hotel-title__info-block + .info-chips-block {
+        margin-top: 10px;
+    }
+
+    .card__main .card__main-container {
+        justify-content: center;
+    }
+
+    .card__main .main-container__row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main__container-info:not(:last-child) {
+        margin-bottom: 25px;
+    }
+
+    .slider-review__content {
+        max-height: 200px;
+        overflow-y: scroll;
+        min-width: 120px;
+    }
+
+    .search-control__item {
+        min-width: 270px;
     }
 }
