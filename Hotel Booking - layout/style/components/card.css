@@ -86,3 +86,17 @@
     display: flex;
     flex-direction: column;
 }
+
+@media only screen and (max-width: 800px) {
+    .card__main {
+        padding: 15px 10px;
+    }
+
+    .text__text-note {
+        margin-top: 10px;
+    }
+
+    .main-container__divider-wrapper {
+        padding: 20px 0;
+    }
+}

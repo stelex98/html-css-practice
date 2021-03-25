@@ -3,29 +3,29 @@
 <head>
     <meta charset = "UTF-8">
     <meta name    = "viewport"
-          content = "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          content = "width=device-width"
     >
     <meta
-            http-equiv = "X-UA-Compatible"
-            content    = "ie=edge"
+        http-equiv = "X-UA-Compatible"
+        content    = "ie=edge"
     >
     <link
-            rel  = "stylesheet"
-            href = "style/main.css"
+        rel  = "stylesheet"
+        href = "style/main.css"
     >
 
     <!-- Fonts -->
     <link
-            rel  = "preconnect"
-            href = "https://fonts.gstatic.com"
+        rel  = "preconnect"
+        href = "https://fonts.gstatic.com"
     >
     <link
-            href = "https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap"
-            rel  = "stylesheet"
+        href = "https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap"
+        rel  = "stylesheet"
     >
     <link
-            href = "https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap"
-            rel  = "stylesheet"
+        href = "https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap"
+        rel  = "stylesheet"
     >
 
     <!-- Icons -->
@@ -47,7 +47,13 @@
                                     Questions? Need Help?
                                 </span>
                                 <span class="help__item-phone">
-                                    Call us on (+123) 456 1500
+                                    Call us on
+                                    <a
+                                        href  = "tel:"
+                                        class = "item-phone__phone-link"
+                                    >
+                                        (+123) 456 1500
+                                    </a>
                                 </span>
                             </div>
                         </div>
@@ -58,7 +64,12 @@
                                         card_giftcard
                                     </span>
                                     <span class="item-gift__text">
-                                        BTP Gift Card
+                                        <a
+                                            href  = "#"
+                                            class = "item-gift__gift-link"
+                                        >
+                                            BTP Gift Card
+                                        </a>
                                     </span>
                                 </div>
                                 <div class="gift__item-bookmark">
@@ -66,7 +77,12 @@
                                         star_border
                                     </span>
                                     <span class="item-bookmark__text">
-                                        Loyalty Program
+                                       <a
+                                           href  = "#"
+                                           class = "item-bookmark__bookmark-link"
+                                       >
+                                            Loyalty Program
+                                       </a>
                                     </span>
                                 </div>
                             </div>
@@ -109,26 +125,36 @@
                         </form>
                         <div class="main-section__user-controls">
                             <div class="user-controls__basket-goods-item">
-                                <span class="basket-goods-item__icon material-icons">
-                                    shopping_cart
-                                </span>
+                                <a
+                                        href  = "#"
+                                        class = "basket-goods-item__link-block"
+                                >
+                                    <span class="basket-goods-item__icon material-icons">
+                                        shopping_cart
+                                    </span>
+                                </a>
                             </div>
                             <a
                                 class = "user-controls__link"
                                 href = "#"
                             >
-                                <div class="user-controls__user-item-control">
-                                    <img
-                                        src = "./img/header/user-logo.svg"
-                                        alt = "User logo"
-                                    >
-                                    <span class="user-item-control__name">
-                                    Nathan
-                                </span>
-                                    <span class="user-item-control__arrow-down material-icons">
-                                    keyboard_arrow_down
-                                </span>
-                                </div>
+                                <a
+                                    href  = "#"
+                                    class = "user-controls__link-block"
+                                >
+                                    <div class="user-controls__user-item-control">
+                                        <img
+                                            src = "./img/header/user-logo.svg"
+                                            alt = "User logo"
+                                        >
+                                        <span class="user-item-control__name">
+                                            Nathan
+                                        </span>
+                                        <span class="user-item-control__arrow-down material-icons">
+                                            keyboard_arrow_down
+                                        </span>
+                                    </div>
+                                </a>
                             </a>
                         </div>
                     </div>
@@ -199,1124 +225,1120 @@
     </header>
 
     <main class="main">
-        <section class="main__main-content-wrapper">
-            <section class="chips-wrapper">
-                <div class="container-mw">
-                    <section class="main__chips-info">
-                        <a class = "chips-item"
-                           href  = "#"
-                        >
-                            Home
-                        </a> /
-                        <a class = "chips-item"
-                           href  = "#"
-                        >
-                            Flash Offers
-                        </a> /
-                        <a class = "chips-item"
-                           href  = "#"
-                        >
-                            Grand Hilton Hotel
-                        </a>
-                    </section>
-                </div>
-            </section>
-            <section class="content-hotel-wrapper">
-                <div class="container-mw">
-                    <section class="main__hotel-info">
-                        <div class="hotel-title-container">
-                            <div class="hotel-title__info-block">
-                                <div class="info-block__star-rating">
-                                    <img
-                                        src    = "./img/main/star.svg"
-                                        alt    = "star icon"
-                                        width  = "6"
-                                        height = "6"
-                                    >
-                                    <img
-                                        src    = "./img/main/star.svg"
-                                        alt    = "star icon"
-                                        width  = "6"
-                                        height = "6"
-                                    >
-                                    <img
-                                        src    = "./img/main/star.svg"
-                                        alt    = "star icon"
-                                        width  = "6"
-                                        height = "6"
-                                    >
-                                    <img
-                                        src    = "./img/main/star.svg"
-                                        alt    = "star icon"
-                                        width  = "6"
-                                        height = "6"
-                                    >
-                                    <img
-                                        src    = "./img/main/star.svg"
-                                        alt    = "star icon"
-                                        width  = "6"
-                                        height = "6"
-                                    >
-                                </div>
-                                <div class="info-block__title">
-                                    <span class="title__text">
-                                        grand hilton hotel
-                                    </span>
-                                    <div class="info-chips-block title--flash-offer">
-                                        Flash Offer
-                                    </div>
-                                </div>
-                                <div class="info-block__title-clarifying">
-                                    <span class="title-clarifying__text">
-                                        Half-Board/ All Inclusive + Complimentary Activities + Child Stays Free
-                                    </span>
+        <section class="chips-wrapper">
+            <div class="container-mw">
+                <section class="main__chips-info">
+                    <a class = "chips-item"
+                       href  = "#"
+                    >
+                        Home
+                    </a> /
+                    <a class = "chips-item"
+                       href  = "#"
+                    >
+                        Flash Offers
+                    </a> /
+                    <a class = "chips-item"
+                       href  = "#"
+                    >
+                        Grand Hilton Hotel
+                    </a>
+                </section>
+            </div>
+        </section>
+        <section class="content-hotel-wrapper">
+            <div class="container-mw">
+                <section class="main__hotel-info">
+                    <div class="hotel-title-container">
+                        <div class="hotel-title__info-block">
+                            <div class="info-block__star-rating">
+                                <img
+                                    src    = "./img/main/star.svg"
+                                    alt    = "star icon"
+                                    width  = "6"
+                                    height = "6"
+                                >
+                                <img
+                                    src    = "./img/main/star.svg"
+                                    alt    = "star icon"
+                                    width  = "6"
+                                    height = "6"
+                                >
+                                <img
+                                    src    = "./img/main/star.svg"
+                                    alt    = "star icon"
+                                    width  = "6"
+                                    height = "6"
+                                >
+                                <img
+                                    src    = "./img/main/star.svg"
+                                    alt    = "star icon"
+                                    width  = "6"
+                                    height = "6"
+                                >
+                                <img
+                                    src    = "./img/main/star.svg"
+                                    alt    = "star icon"
+                                    width  = "6"
+                                    height = "6"
+                                >
+                            </div>
+                            <div class="info-block__title">
+                                <span class="title__text">
+                                    grand hilton hotel
+                                </span>
+                                <div class="info-chips-block title--flash-offer">
+                                    Flash Offer
                                 </div>
                             </div>
-                            <div class="hotel-title__ratings-block info-chips-block">
-                                <div class="ratings-block__title">
-                                    <span>
-                                        User ratings
-                                    </span>
-                                </div>
-                                <div class="ratings-block__mark">
-                                    <span class="mark__average-mark">
-                                        4.5 /
-                                    </span>
-                                    <span class="mark__max-mark">
-                                        5
-                                    </span>
-                                </div>
+                            <div class="info-block__title-clarifying">
+                                <span class="title-clarifying__text">
+                                    Half-Board/ All Inclusive + Complimentary Activities + Child Stays Free
+                                </span>
                             </div>
                         </div>
-                        <div class="hotel-common-info-container">
-                            <div class="hotel-slider-info">
-                                <div class="hotel-slider-info__slider-container">
-                                    <img
-                                        src = "./img/main/slider/hotel-slider-image-info.svg"
-                                        alt = "Hotel image"
-                                    >
-                                </div>
+                        <div class="hotel-title__ratings-block info-chips-block">
+                            <div class="ratings-block__title">
+                                <span>
+                                    User ratings
+                                </span>
                             </div>
-                            <div class="hotel-map-price-info">
-                                <div class="hotel-map-price-info-wrapper">
-                                    <div class="hotel-map-price-info__price-info">
-                                        <div class="price-info-container">
-                                            <div class="price-info__price-count">
-                                            <span class="price-count__title_price">
-                                                price starts as
-                                            </span>
-                                                <span class="price-count__text_price">
-                                                $ 8,500
-                                             </span>
-                                                <span class="price-count__clarify-1">
-                                                per room / night
-                                            </span>
-                                                <span class="price-count__clarify-2">
-                                                Quick Booking
-                                            </span>
-                                            </div>
-                                            <div class="price-info__guests-count">
-                                                <div class="guests-count__text-info">
-                                                <span class="text-info__info-block">
-                                                    <span class="material-icons info-block__icon">
-                                                        person
-                                                    </span>
-                                                    2 x Guests
-                                                </span>
-                                                    <span class="text-info__info-block">
-                                                    <span class="material-icons info-block__icon">
-                                                        home
-                                                    </span>
-                                                    1 x Room
-                                                </span>
-                                                </div>
-                                                <div class="guests-count__number">
-                                                <span class="text-info__info-block">
-                                                    <span class="material-icons info-block__icon">
-                                                        phone_in_talk
-                                                    </span>
-                                                    12100
-                                                </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="price-info__button-container">
-                                            <button class="button-control button--view-other-options">
-                                            <span>
-                                                View Other Options
-                                            </span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="hotel-map-price-info-wrapper">
-                                    <div class="hotel-map-price-info__map-info">
-                                        <img
-                                                src = "./img/main/map.svg"
-                                                alt = "Map of hotel"
-                                        >
-                                    </div>
-                                </div>
+                            <div class="ratings-block__mark">
+                                <span class="mark__average-mark">
+                                    4.5 /
+                                </span>
+                                <span class="mark__max-mark">
+                                    5
+                                </span>
                             </div>
                         </div>
-                    </section>
-                </div>
-            </section>
-            <section class="navigation-hotel-wrapper">
-                <div class="container-mw">
-                    <section class="main__hotel-navigation">
-                        <nav class="navigation-container navigation-container--hotel-navigation">
-                            <ul class="navigation-list navigation-list--hotel-navigation">
-                                <li class="navigation-item">
-                                    <a class = "navigation-link navigation-link--hotel-navigation navigation-link--active"
-                                       href  = "#"
-                                    >
-                                        Package Summary
-                                    </a>
-                                </li>
-                                <li class="navigation-item">
-                                    <a class = "navigation-link navigation-link--hotel-navigation"
-                                       href  = "#"
-                                    >
-                                        Hotel Information
-                                    </a>
-
-                                </li>
-                                <li class="navigation-item">
-                                    <a class = "navigation-link navigation-link--hotel-navigation"
-                                       href  = "#"
-                                    >
-                                        Rooms
-                                    </a>
-                                </li>
-                                <li class="navigation-item">
-                                    <a class = "navigation-link navigation-link--hotel-navigation"
-                                       href  = "#"
-                                    >
-                                        Facilities & Activities
-                                    </a>
-                                </li>
-                                <li class="navigation-item">
-                                    <a class = "navigation-link navigation-link--hotel-navigation"
-                                       href  = "#"
-                                    >
-                                        Dining & Entertainment
-                                    </a>
-                                </li>
-                                <li class="navigation-item">
-                                    <a class = "navigation-link navigation-link--hotel-navigation"
-                                       href  = "#"
-                                    >
-                                        Reviews
-                                    </a>
-
-                                </li>
-                                <li class="navigation-item">
-                                    <a class = "navigation-link navigation-link--hotel-navigation"
-                                       href  = "#"
-                                    >
-                                        Questions & Answers
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </section>
-                </div>
-            </section>
-            <section class="package-info-hotel-wrapper">
-                <div class="container-mw">
-                    <section class="package-summery">
-                        <div class="package-summery__title">
-                            <span class="title__text">
-                                package summery
-                            </span>
+                    </div>
+                    <div class="hotel-common-info-container">
+                        <div class="hotel-slider-info">
+                            <div class="hotel-slider-info__slider-container">
+                                <img
+                                    src = "./img/main/slider/hotel-slider-image-info.svg"
+                                    alt = "Hotel image"
+                                >
+                            </div>
                         </div>
-                        <div class="package-summery__container-info">
-                            <div class="package-card-wrapper">
-                                <div class="package-card-container card-info">
-                                    <header class="card__header">
-                                        <span class="card__title-text">
-                                            Package Highlights
+                        <div class="hotel-map-price-info">
+                            <div class="hotel-map-price-info-wrapper">
+                                <div class="hotel-map-price-info__price-info">
+                                    <div class="price-info-container">
+                                        <div class="price-info__price-count">
+                                        <span class="price-count__title_price">
+                                            price starts as
                                         </span>
-                                    </header>
-                                    <main class="card__main">
-                                        <div class="card__main-container">
-                                            <div class="main__container-info">
-                                                <ul class="card__ul-item">
-                                                    <li class="card__li-item">
-                                                        <span class="material-icons">
-                                                            check_circle
-                                                        </span>
-                                                        <span class="li-item__text">
-                                                            Half Board/ All Inclusive
-                                                        </span>
-                                                    </li>
-                                                    <li class="card__li-item">
-                                                        <span class="material-icons">
-                                                            check_circle
-                                                        </span>
-                                                        <span class="li-item__text">
-                                                            Child Under 11 Years Stay Free
-                                                        </span>
-                                                    </li>
-                                                    <li class="card__li-item">
-                                                        <span class="material-icons">
-                                                            check_circle
-                                                        </span>
-                                                        <span>
-                                                            LUX* Me Spa
-                                                        </span>
-                                                    </li>
-                                                </ul>
+                                            <span class="price-count__text_price">
+                                            $ 8,500
+                                         </span>
+                                            <span class="price-count__clarify-1">
+                                            per room / night
+                                        </span>
+                                            <span class="price-count__clarify-2">
+                                            Quick Booking
+                                        </span>
+                                        </div>
+                                        <div class="price-info__guests-count">
+                                            <div class="guests-count__text-info">
+                                            <span class="text-info__info-block">
+                                                <span class="material-icons info-block__icon">
+                                                    person
+                                                </span>
+                                                2 x Guests
+                                            </span>
+                                                <span class="text-info__info-block">
+                                                <span class="material-icons info-block__icon">
+                                                    home
+                                                </span>
+                                                1 x Room
+                                            </span>
                                             </div>
-                                            <div class="main__container-info">
-                                                <ul class="card__ul-item">
-                                                    <li class="card__li-item">
-                                                        <span class="material-icons">
-                                                            check_circle
-                                                        </span>
-                                                        <span class="li-item__text">
-                                                            Luxurious 5-Star Hotel
-                                                        </span>
-                                                    </li>
-                                                    <li class="card__li-item">
-                                                        <span class="material-icons">
-                                                            check_circle
-                                                        </span>
-                                                        <span class="li-item__text">
-                                                            Banyan An Adult Only Zone
-                                                        </span>
-                                                    </li>
-                                                </ul>
+                                            <div class="guests-count__number">
+                                            <span class="text-info__info-block">
+                                                <span class="material-icons info-block__icon">
+                                                    phone_in_talk
+                                                </span>
+                                                12100
+                                            </span>
                                             </div>
                                         </div>
-                                    </main>
+                                    </div>
+                                    <div class="price-info__button-container">
+                                        <button class="button-control button--view-other-options">
+                                        <span>
+                                            View Other Options
+                                        </span>
+                                        </button>
+                                    </div>
                                 </div>
-                                <div class="package-card-container card-info">
-                                    <header class="card__header">
-                                    <span class="card__title-text">
-                                        Offer Details
-                                    </span>
-                                    </header>
-                                    <main class="card__main">
-                                        <div class="card__main-container">
-                                            <div class="main__container-info">
-                                                <ul class="card__ul-item">
-                                                    <li class="card__li-item card__li-item--custom-note">
-                                                        <span class="material-icons">
-                                                            check_circle
-                                                        </span>
-                                                        <span class="li-item__text li-item__text--custom-note">
-                                                            <span>
-                                                                Benefit from a special discounted CHILL’OUT OFFER at Grand Hilton Hotel.
-                                                            </span>
-
-                                                            <span class="text__text-note">
-                                                                * Valid until 30 April 2020
-                                                            </span>
-                                                        </span>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="main__container-info">
-                                                <ul class="card__ul-item">
-                                                    <li class="card__li-item">
-                                                        <span class="material-icons">
-                                                            calendar_today
-                                                        </span>
-                                                        <span class="li-item__text">
-                                                            10th March - 30th April 2020
-                                                        </span>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </main>
-
-                                </div>
-                                <div class="package-card-container card-info">
-                                    <header class="card__header">
-                                    <span class="card__title-text">
-                                        Package Summery Details
-                                    </span>
-                                    </header>
-                                    <main class="card__main">
-                                        <div class="card__main-container card__main-container--big">
-                                            <div class="main-container__row">
-                                                <div class="main__container-info">
-                                                    <h2 class="container-info__title">
-                                                        Purchase Inclusions
-                                                    </h2>
-                                                    <ul class="card__ul-item">
-                                                        <li class="card__li-item">
-                                                            <span class="material-icons">
-                                                                check_circle
-                                                            </span>
-                                                            <span class="li-item__text">
-                                                                Room as per selection
-                                                            </span>
-                                                        </li>
-                                                        <li class="card__li-item">
-                                                            <span class="material-icons">
-                                                                check_circle
-                                                            </span>
-                                                            <span class="li-item__text">
-                                                                Half Board or All Inclusive Meal Plan
-                                                            </span>
-                                                        </li>
-                                                        <li class="card__li-item">
-                                                            <span class="material-icons">
-                                                                check_circle
-                                                            </span>
-                                                            <span class="li-item__text">
-                                                               Complimentary Land & Water activities
-                                                            </span>
-                                                        </li>
-                                                        <li class="card__li-item">
-                                                            <span class="material-icons">
-                                                                check_circle
-                                                            </span>
-                                                            <span class="li-item__text">
-                                                               Child Under 11 years old stays free
-                                                            </span>
-                                                        </li>
-                                                        <li class="card__li-item">
-                                                            <span class="material-icons">
-                                                                check_circle
-                                                            </span>
-                                                            <span class="li-item__text">
-                                                               Free Wi-Fi
-                                                            </span>
-                                                        </li>
-                                                        <li class="card__li-item">
-                                                            <span class="material-icons">
-                                                                check_circle
-                                                            </span>
-                                                            <span class="li-item__text">
-                                                              Free Secure Parking
-                                                            </span>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="main__container-info">
-                                                    <h2 class="container-info__title">
-                                                        Purchase Inclusions
-                                                    </h2>
-                                                    <ul class="card__ul-item">
-                                                        <li class="card__li-item">
-                                                            <span class="material-icons">
-                                                                check_circle
-                                                            </span>
-                                                            <span class="li-item__text">
-                                                                Gym
-                                                            </span>
-                                                        </li>
-                                                        <li class="card__li-item">
-                                                            <span class="material-icons">
-                                                                check_circle
-                                                            </span>
-                                                            <span class="li-item__text">
-                                                                Beach Volley
-                                                            </span>
-                                                        </li>
-                                                        <li class="card__li-item">
-                                                            <span class="material-icons">
-                                                                check_circle
-                                                            </span>
-                                                            <span class="li-item__text">
-                                                               Table tennis
-                                                            </span>
-                                                        </li>
-                                                        <li class="card__li-item">
-                                                            <span class="material-icons">
-                                                                check_circle
-                                                            </span>
-                                                            <span class="li-item__text">
-                                                               Soccer balls
-                                                            </span>
-                                                        </li>
-                                                        <li class="card__li-item">
-                                                            <span class="material-icons">
-                                                                check_circle
-                                                            </span>
-                                                            <span class="li-item__text">
-                                                               Yoga
-                                                            </span>
-                                                        </li>
-                                                        <li class="card__li-item">
-                                                            <span class="material-icons">
-                                                                check_circle
-                                                            </span>
-                                                            <span class="li-item__text">
-                                                              Free Secure Parking
-                                                            </span>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="main__container-info">
-                                                    <h2 class="container-info__title">
-                                                        Purchase Inclusions
-                                                    </h2>
-                                                    <ul class="card__ul-item">
-                                                        <li class="card__li-item">
-                                                            <span class="material-icons">
-                                                                check_circle
-                                                            </span>
-                                                            <span class="li-item__text">
-                                                                Water skiing
-                                                            </span>
-                                                        </li>
-                                                        <li class="card__li-item">
-                                                            <span class="material-icons">
-                                                                check_circle
-                                                            </span>
-                                                            <span class="li-item__text">
-                                                                Windsurfing
-                                                            </span>
-                                                        </li>
-                                                        <li class="card__li-item">
-                                                            <span class="material-icons">
-                                                                check_circle
-                                                            </span>
-                                                            <span class="li-item__text">
-                                                              Pedal boats
-                                                            </span>
-                                                        </li>
-                                                        <li class="card__li-item">
-                                                            <span class="material-icons">
-                                                                check_circle
-                                                            </span>
-                                                            <span class="li-item__text">
-                                                               Kayaking
-                                                            </span>
-                                                        </li>
-                                                        <li class="card__li-item">
-                                                            <span class="material-icons">
-                                                                check_circle
-                                                            </span>
-                                                            <span class="li-item__text">
-                                                               Aqua Gym
-                                                            </span>
-                                                        </li>
-                                                        <li class="card__li-item">
-                                                            <span class="material-icons">
-                                                                check_circle
-                                                            </span>
-                                                            <span class="li-item__text">
-                                                              Glass bottom boat trips
-                                                            </span>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="main-container__divider-wrapper">
-                                                <div class="divider">
-
-                                                </div>
-                                            </div>
-                                            <div class="main-container__row">
-                                                <div class="main__container-info">
-                                                    <h2 class="container-info__title">
-                                                        Purchase Inclusions
-                                                    </h2>
-                                                    <ul class="card__ul-item">
-                                                        <li class="card__li-item">
-                                                            <span class="material-icons">
-                                                                check_circle
-                                                            </span>
-                                                            <span class="li-item__text">
-                                                                Half Board
-                                                            </span>
-                                                        </li>
-                                                        <li class="card__li-item">
-                                                            <span class="material-icons">
-                                                                check_circle
-                                                            </span>
-                                                            <span class="li-item__text">
-                                                                All Inclusive
-                                                            </span>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="main__container-info">
-                                                    <h2 class="container-info__title">
-                                                        Purchase Inclusions
-                                                    </h2>
-                                                    <ul class="card__ul-item">
-                                                        <li class="card__li-item">
-                                                            <span class="material-icons">
-                                                                check_circle
-                                                            </span>
-                                                            <span class="li-item__text">
-                                                                Live music
-                                                            </span>
-                                                        </li>
-                                                        <li class="card__li-item">
-                                                            <span class="material-icons">
-                                                                check_circle
-                                                            </span>
-                                                            <span class="li-item__text">
-                                                                DJ & Mauritian Dance Show
-                                                            </span>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="main__container-info">
-                                                    <h2 class="container-info__title">
-                                                        Purchase Inclusions
-                                                    </h2>
-                                                    <ul class="card__ul-item">
-                                                        <li class="card__li-item">
-                                                            <span class="material-icons">
-                                                                check_circle
-                                                            </span>
-                                                            <span class="li-item__text">
-                                                                Check In Time 14:00
-                                                            </span>
-                                                        </li>
-                                                        <li class="card__li-item">
-                                                            <span class="material-icons">
-                                                                check_circle
-                                                            </span>
-                                                            <span class="li-item__text">
-                                                                Check Out Time 11:00
-                                                            </span>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </main>
+                            </div>
+                            <div class="hotel-map-price-info-wrapper">
+                                <div class="hotel-map-price-info__map-info">
+                                    <img
+                                            src = "./img/main/map.svg"
+                                            alt = "Map of hotel"
+                                    >
                                 </div>
                             </div>
                         </div>
-                    </section>
-                </div>
-            </section>
-            <section class="other-packages-wrapper">
-                <div class="container-mw">
-                    <section class="other-packages">
-                        <div class="other-packages__title">
-                            <span class="title-text--other-packages">
-                                other packages
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section class="navigation-hotel-wrapper">
+            <div class="container-mw">
+                <section class="main__hotel-navigation">
+                    <nav class="navigation-container navigation-container--hotel-navigation">
+                        <ul class="navigation-list navigation-list--hotel-navigation">
+                            <li class="navigation-item">
+                                <a class = "navigation-link navigation-link--hotel-navigation navigation-link--active"
+                                   href  = "#"
+                                >
+                                    Package Summary
+                                </a>
+                            </li>
+                            <li class="navigation-item">
+                                <a class = "navigation-link navigation-link--hotel-navigation"
+                                   href  = "#"
+                                >
+                                    Hotel Information
+                                </a>
+
+                            </li>
+                            <li class="navigation-item">
+                                <a class = "navigation-link navigation-link--hotel-navigation"
+                                   href  = "#"
+                                >
+                                    Rooms
+                                </a>
+                            </li>
+                            <li class="navigation-item">
+                                <a class = "navigation-link navigation-link--hotel-navigation"
+                                   href  = "#"
+                                >
+                                    Facilities & Activities
+                                </a>
+                            </li>
+                            <li class="navigation-item">
+                                <a class = "navigation-link navigation-link--hotel-navigation"
+                                   href  = "#"
+                                >
+                                    Dining & Entertainment
+                                </a>
+                            </li>
+                            <li class="navigation-item">
+                                <a class = "navigation-link navigation-link--hotel-navigation"
+                                   href  = "#"
+                                >
+                                    Reviews
+                                </a>
+
+                            </li>
+                            <li class="navigation-item">
+                                <a class = "navigation-link navigation-link--hotel-navigation"
+                                   href  = "#"
+                                >
+                                    Questions & Answers
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
+        </section>
+        <section class="package-info-hotel-wrapper">
+            <div class="container-mw">
+                <section class="package-summery">
+                    <div class="package-summery__title">
+                        <span class="title__text">
+                            package summery
+                        </span>
+                    </div>
+                    <div class="package-summery__container-info">
+                        <div class="package-card-wrapper">
+                            <div class="package-card-container card-info">
+                                <header class="card__header">
+                                    <span class="card__title-text">
+                                        Package Highlights
+                                    </span>
+                                </header>
+                                <main class="card__main">
+                                    <div class="card__main-container">
+                                        <div class="main__container-info">
+                                            <ul class="card__ul-item">
+                                                <li class="card__li-item">
+                                                    <span class="material-icons">
+                                                        check_circle
+                                                    </span>
+                                                    <span class="li-item__text">
+                                                        Half Board/ All Inclusive
+                                                    </span>
+                                                </li>
+                                                <li class="card__li-item">
+                                                    <span class="material-icons">
+                                                        check_circle
+                                                    </span>
+                                                    <span class="li-item__text">
+                                                        Child Under 11 Years Stay Free
+                                                    </span>
+                                                </li>
+                                                <li class="card__li-item">
+                                                    <span class="material-icons">
+                                                        check_circle
+                                                    </span>
+                                                    <span>
+                                                        LUX* Me Spa
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="main__container-info">
+                                            <ul class="card__ul-item">
+                                                <li class="card__li-item">
+                                                    <span class="material-icons">
+                                                        check_circle
+                                                    </span>
+                                                    <span class="li-item__text">
+                                                        Luxurious 5-Star Hotel
+                                                    </span>
+                                                </li>
+                                                <li class="card__li-item">
+                                                    <span class="material-icons">
+                                                        check_circle
+                                                    </span>
+                                                    <span class="li-item__text">
+                                                        Banyan An Adult Only Zone
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </main>
+                            </div>
+                            <div class="package-card-container card-info">
+                                <header class="card__header">
+                                <span class="card__title-text">
+                                    Offer Details
+                                </span>
+                                </header>
+                                <main class="card__main">
+                                    <div class="card__main-container">
+                                        <div class="main__container-info">
+                                            <ul class="card__ul-item">
+                                                <li class="card__li-item card__li-item--custom-note">
+                                                    <span class="material-icons">
+                                                        check_circle
+                                                    </span>
+                                                    <span class="li-item__text li-item__text--custom-note">
+                                                        <span>
+                                                            Benefit from a special discounted CHILL’OUT OFFER at Grand Hilton Hotel.
+                                                        </span>
+
+                                                        <span class="text__text-note">
+                                                            * Valid until 30 April 2020
+                                                        </span>
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="main__container-info">
+                                            <ul class="card__ul-item">
+                                                <li class="card__li-item">
+                                                    <span class="material-icons">
+                                                        calendar_today
+                                                    </span>
+                                                    <span class="li-item__text">
+                                                        10th March - 30th April 2020
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </main>
+
+                            </div>
+                            <div class="package-card-container card-info">
+                                <header class="card__header">
+                                <span class="card__title-text">
+                                    Package Summery Details
+                                </span>
+                                </header>
+                                <main class="card__main">
+                                    <div class="card__main-container card__main-container--big">
+                                        <div class="main-container__row">
+                                            <div class="main__container-info">
+                                                <h2 class="container-info__title">
+                                                    Purchase Inclusions
+                                                </h2>
+                                                <ul class="card__ul-item">
+                                                    <li class="card__li-item">
+                                                        <span class="material-icons">
+                                                            check_circle
+                                                        </span>
+                                                        <span class="li-item__text">
+                                                            Room as per selection
+                                                        </span>
+                                                    </li>
+                                                    <li class="card__li-item">
+                                                        <span class="material-icons">
+                                                            check_circle
+                                                        </span>
+                                                        <span class="li-item__text">
+                                                            Half Board or All Inclusive Meal Plan
+                                                        </span>
+                                                    </li>
+                                                    <li class="card__li-item">
+                                                        <span class="material-icons">
+                                                            check_circle
+                                                        </span>
+                                                        <span class="li-item__text">
+                                                           Complimentary Land & Water activities
+                                                        </span>
+                                                    </li>
+                                                    <li class="card__li-item">
+                                                        <span class="material-icons">
+                                                            check_circle
+                                                        </span>
+                                                        <span class="li-item__text">
+                                                           Child Under 11 years old stays free
+                                                        </span>
+                                                    </li>
+                                                    <li class="card__li-item">
+                                                        <span class="material-icons">
+                                                            check_circle
+                                                        </span>
+                                                        <span class="li-item__text">
+                                                           Free Wi-Fi
+                                                        </span>
+                                                    </li>
+                                                    <li class="card__li-item">
+                                                        <span class="material-icons">
+                                                            check_circle
+                                                        </span>
+                                                        <span class="li-item__text">
+                                                          Free Secure Parking
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="main__container-info">
+                                                <h2 class="container-info__title">
+                                                    Purchase Inclusions
+                                                </h2>
+                                                <ul class="card__ul-item">
+                                                    <li class="card__li-item">
+                                                        <span class="material-icons">
+                                                            check_circle
+                                                        </span>
+                                                        <span class="li-item__text">
+                                                            Gym
+                                                        </span>
+                                                    </li>
+                                                    <li class="card__li-item">
+                                                        <span class="material-icons">
+                                                            check_circle
+                                                        </span>
+                                                        <span class="li-item__text">
+                                                            Beach Volley
+                                                        </span>
+                                                    </li>
+                                                    <li class="card__li-item">
+                                                        <span class="material-icons">
+                                                            check_circle
+                                                        </span>
+                                                        <span class="li-item__text">
+                                                           Table tennis
+                                                        </span>
+                                                    </li>
+                                                    <li class="card__li-item">
+                                                        <span class="material-icons">
+                                                            check_circle
+                                                        </span>
+                                                        <span class="li-item__text">
+                                                           Soccer balls
+                                                        </span>
+                                                    </li>
+                                                    <li class="card__li-item">
+                                                        <span class="material-icons">
+                                                            check_circle
+                                                        </span>
+                                                        <span class="li-item__text">
+                                                           Yoga
+                                                        </span>
+                                                    </li>
+                                                    <li class="card__li-item">
+                                                        <span class="material-icons">
+                                                            check_circle
+                                                        </span>
+                                                        <span class="li-item__text">
+                                                          Free Secure Parking
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="main__container-info">
+                                                <h2 class="container-info__title">
+                                                    Purchase Inclusions
+                                                </h2>
+                                                <ul class="card__ul-item">
+                                                    <li class="card__li-item">
+                                                        <span class="material-icons">
+                                                            check_circle
+                                                        </span>
+                                                        <span class="li-item__text">
+                                                            Water skiing
+                                                        </span>
+                                                    </li>
+                                                    <li class="card__li-item">
+                                                        <span class="material-icons">
+                                                            check_circle
+                                                        </span>
+                                                        <span class="li-item__text">
+                                                            Windsurfing
+                                                        </span>
+                                                    </li>
+                                                    <li class="card__li-item">
+                                                        <span class="material-icons">
+                                                            check_circle
+                                                        </span>
+                                                        <span class="li-item__text">
+                                                          Pedal boats
+                                                        </span>
+                                                    </li>
+                                                    <li class="card__li-item">
+                                                        <span class="material-icons">
+                                                            check_circle
+                                                        </span>
+                                                        <span class="li-item__text">
+                                                           Kayaking
+                                                        </span>
+                                                    </li>
+                                                    <li class="card__li-item">
+                                                        <span class="material-icons">
+                                                            check_circle
+                                                        </span>
+                                                        <span class="li-item__text">
+                                                           Aqua Gym
+                                                        </span>
+                                                    </li>
+                                                    <li class="card__li-item">
+                                                        <span class="material-icons">
+                                                            check_circle
+                                                        </span>
+                                                        <span class="li-item__text">
+                                                          Glass bottom boat trips
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="main-container__divider-wrapper">
+                                            <div class="divider">
+
+                                            </div>
+                                        </div>
+                                        <div class="main-container__row">
+                                            <div class="main__container-info">
+                                                <h2 class="container-info__title">
+                                                    Purchase Inclusions
+                                                </h2>
+                                                <ul class="card__ul-item">
+                                                    <li class="card__li-item">
+                                                        <span class="material-icons">
+                                                            check_circle
+                                                        </span>
+                                                        <span class="li-item__text">
+                                                            Half Board
+                                                        </span>
+                                                    </li>
+                                                    <li class="card__li-item">
+                                                        <span class="material-icons">
+                                                            check_circle
+                                                        </span>
+                                                        <span class="li-item__text">
+                                                            All Inclusive
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="main__container-info">
+                                                <h2 class="container-info__title">
+                                                    Purchase Inclusions
+                                                </h2>
+                                                <ul class="card__ul-item">
+                                                    <li class="card__li-item">
+                                                        <span class="material-icons">
+                                                            check_circle
+                                                        </span>
+                                                        <span class="li-item__text">
+                                                            Live music
+                                                        </span>
+                                                    </li>
+                                                    <li class="card__li-item">
+                                                        <span class="material-icons">
+                                                            check_circle
+                                                        </span>
+                                                        <span class="li-item__text">
+                                                            DJ & Mauritian Dance Show
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="main__container-info">
+                                                <h2 class="container-info__title">
+                                                    Purchase Inclusions
+                                                </h2>
+                                                <ul class="card__ul-item">
+                                                    <li class="card__li-item">
+                                                        <span class="material-icons">
+                                                            check_circle
+                                                        </span>
+                                                        <span class="li-item__text">
+                                                            Check In Time 14:00
+                                                        </span>
+                                                    </li>
+                                                    <li class="card__li-item">
+                                                        <span class="material-icons">
+                                                            check_circle
+                                                        </span>
+                                                        <span class="li-item__text">
+                                                            Check Out Time 11:00
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </main>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section class="other-packages-wrapper">
+            <div class="container-mw">
+                <section class="other-packages">
+                    <div class="other-packages__title">
+                        <span class="title-text--other-packages">
+                            other packages
+                        </span>
+                    </div>
+                    <div class="card-wrapper">
+                        <div class="card-type-wrapper">
+                            <div class="card-type-one">
+                                <div class="card-info-background-image">
+                                    <img
+                                            class = "image-blue-haven"
+                                            src   = "./img/main/info-card/info-card-image.svg"
+                                            alt   = "Hotel Blue Haven image"
+                                    >
+                                </div>
+                                <div class="card-info-content">
+                                    <div class="card-rating">
+                                        <img
+                                                src = "./img/main/star.svg"
+                                                alt = "Star icon"
+                                        >
+                                        <img
+                                                src = "./img/main/star.svg"
+                                                alt = "Star icon"
+                                        >
+                                        <img
+                                                src = "./img/main/star.svg"
+                                                alt = "Star icon"
+                                        >
+                                        <img
+                                                src = "./img/main/star.svg"
+                                                alt = "Star icon"
+                                        >
+                                        <img
+                                                src = "./img/main/star.svg"
+                                                alt = "Star icon"
+                                        >
+                                    </div>
+                                    <h2 class="card-info-title">
+                                        Hotel Blue Haven
+                                    </h2>
+                                    <p class="card-info-content__text">
+                                        Aute quis duis excepteur excepteur ipsum cat eiusmod consectetur enim
+                                        laborum magna llit. Ipsum est fugiat velit ea llamco do esse ut
+                                        in veniam sun in onsequat. Aute quis duis epteur excepteur ipsum occaecat
+                                        eiusmod nsectetur enim laborum magna mollit.
+                                        Ipsum est fugiat velit ea ullamco do
+                                    </p>
+                                    <div class="card-info-travel-info">
+                                        <div class="card-info-travel-info__info-item">
+                                            <span class="material-icons info-item-icon">
+                                                location_on
+                                            </span>
+                                            <span class="info-item__text">
+                                                1749 Wheeler Ridge  Delaware
+                                            </span>
+                                        </div>
+                                        <div class="card-info-travel-info__info-item">
+                                            <span class="material-icons info-item-icon">
+                                                person
+                                            </span>
+                                            <span class="info-item__text">
+                                                2 x Guests
+                                            </span>
+                                        </div>
+                                        <div class="card-info-travel-info__info-item">
+                                            <span class="material-icons info-item-icon">
+                                                home
+                                            </span>
+                                            <span class="info-item__text">
+                                                1 x Room
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="card-info-book-block">
+                                        <div class="price-info">
+                                            <div class="old-price">
+                                                $ 10,500
+                                            </div>
+                                            <div class="current-price">
+                                                $ 8,500
+                                            </div>
+                                        </div>
+                                        <div class="button-control-container">
+                                            <button class="button-control button-control-book-now">
+                                                <span>
+                                                    Book Now
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-type-wrapper">
+                            <div class="card-type-two">
+                                <div class="card-info-two-background-image">
+                                    <img
+                                            class = "image-belle-mare"
+                                            src   = "./img/main/info-card/info-card-image-1.svg"
+                                            alt   = "LUX Belle Mare image"
+                                    >
+                                </div>
+                                <div class="card-info-two-content">
+                                    <h2 class="card-info-two-title">
+                                        Hotel Blue Haven
+                                    </h2>
+                                    <div class="card-info-two-travel-info">
+                                        <div class="card-info-two-travel-info__info-item">
+                                            <span class="material-icons info-item-icon">
+                                                location_on
+                                            </span>
+                                            <span class="info-item__text">
+                                                1749 Wheeler Ridge  Delaware
+                                            </span>
+                                        </div>
+                                        <div class="card-info-two-travel-info__info-item">
+                                            <span class="material-icons info-item-icon">
+                                                person
+                                            </span>
+                                            <span class="info-item__text">
+                                                2 x Guests
+                                            </span>
+                                        </div>
+                                        <div class="card-info-two-travel-info__info-item">
+                                            <span class="material-icons info-item-icon">
+                                                home
+                                            </span>
+                                            <span class="info-item__text">
+                                                1 x Room
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="card-info-two-book-block">
+                                        <div class="price-info">
+                                            <div class="old-price">
+                                                $ 10,500
+                                            </div>
+                                            <div class="current-price">
+                                                $ 8,500
+                                            </div>
+                                        </div>
+                                        <div class="button-control-container">
+                                            <button class="button-control button-control-book-now">
+                                            <span>
+                                                Book Now
+                                            </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-type-wrapper">
+                            <div class="card-type-two">
+                                <div class="card-info-two-background-image">
+                                    <img
+                                            class = "image-belle-mare"
+                                            src   = "./img/main/info-card/info-card-image-1.svg"
+                                            alt   = "LUX Belle Mare image"
+                                    >
+                                </div>
+                                <div class="card-info-two-content">
+                                    <h2 class="card-info-two-title">
+                                        Hotel Blue Haven
+                                    </h2>
+                                    <div class="card-info-two-travel-info">
+                                        <div class="card-info-two-travel-info__info-item">
+                                            <span class="material-icons info-item-icon">
+                                                location_on
+                                            </span>
+                                            <span class="info-item__text">
+                                                1749 Wheeler Ridge  Delaware
+                                            </span>
+                                        </div>
+                                        <div class="card-info-two-travel-info__info-item">
+                                            <span class="material-icons info-item-icon">
+                                                person
+                                            </span>
+                                            <span class="info-item__text">
+                                                2 x Guests
+                                            </span>
+                                        </div>
+                                        <div class="card-info-two-travel-info__info-item">
+                                            <span class="material-icons info-item-icon">
+                                                home
+                                            </span>
+                                            <span class="info-item__text">
+                                                1 x Room
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="card-info-two-book-block">
+                                        <div class="price-info">
+                                            <div class="old-price">
+                                                $ 10,500
+                                            </div>
+                                            <div class="current-price">
+                                                $ 8,500
+                                            </div>
+                                        </div>
+                                        <div class="button-control-container">
+                                            <button class="button-control button-control-book-now">
+                                            <span>
+                                                Book Now
+                                            </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-type-wrapper">
+                            <div class="card-type-two">
+                                <div class="card-info-two-background-image">
+                                    <img
+                                            class = "image-belle-mare"
+                                            src   = "./img/main/info-card/info-card-image-1.svg"
+                                            alt   = "LUX Belle Mare image"
+                                    >
+                                </div>
+                                <div class="card-info-two-content">
+                                    <h2 class="card-info-two-title">
+                                        Hotel Blue Haven
+                                    </h2>
+                                    <div class="card-info-two-travel-info">
+                                        <div class="card-info-two-travel-info__info-item">
+                                            <span class="material-icons info-item-icon">
+                                                location_on
+                                            </span>
+                                            <span class="info-item__text">
+                                                1749 Wheeler Ridge  Delaware
+                                            </span>
+                                        </div>
+                                        <div class="card-info-two-travel-info__info-item">
+                                            <span class="material-icons info-item-icon">
+                                                person
+                                            </span>
+                                            <span class="info-item__text">
+                                                2 x Guests
+                                            </span>
+                                        </div>
+                                        <div class="card-info-two-travel-info__info-item">
+                                            <span class="material-icons info-item-icon">
+                                                home
+                                            </span>
+                                            <span class="info-item__text">
+                                                1 x Room
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="card-info-two-book-block">
+                                        <div class="price-info">
+                                            <div class="old-price">
+                                                $ 10,500
+                                            </div>
+                                            <div class="current-price">
+                                                $ 8,500
+                                            </div>
+                                        </div>
+                                        <div class="button-control-container">
+                                            <button class="button-control button-control-book-now">
+                                            <span>
+                                                Book Now
+                                            </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-type-wrapper">
+                            <div class="card-type-two">
+                                <div class="card-info-two-background-image">
+                                    <img
+                                            class = "image-belle-mare"
+                                            src   = "./img/main/info-card/info-card-image-1.svg"
+                                            alt   = "LUX Belle Mare image"
+                                    >
+                                </div>
+                                <div class="card-info-two-content">
+                                    <h2 class="card-info-two-title">
+                                        Hotel Blue Haven
+                                    </h2>
+                                    <div class="card-info-two-travel-info">
+                                        <div class="card-info-two-travel-info__info-item">
+                                            <span class="material-icons info-item-icon">
+                                                location_on
+                                            </span>
+                                            <span class="info-item__text">
+                                                1749 Wheeler Ridge  Delaware
+                                            </span>
+                                        </div>
+                                        <div class="card-info-two-travel-info__info-item">
+                                            <span class="material-icons info-item-icon">
+                                                person
+                                            </span>
+                                            <span class="info-item__text">
+                                                2 x Guests
+                                            </span>
+                                        </div>
+                                        <div class="card-info-two-travel-info__info-item">
+                                            <span class="material-icons info-item-icon">
+                                                home
+                                            </span>
+                                            <span class="info-item__text">
+                                                1 x Room
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="card-info-two-book-block">
+                                        <div class="price-info">
+                                            <div class="old-price">
+                                                $ 10,500
+                                            </div>
+                                            <div class="current-price">
+                                                $ 8,500
+                                            </div>
+                                        </div>
+                                        <div class="button-control-container">
+                                            <button class="button-control button-control-book-now">
+                                            <span>
+                                                Book Now
+                                            </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section class="people-reviews-wrapper">
+            <div class="container-mw">
+                <section class="people-reviews">
+                    <div class="people-reviews__title">
+                        <div class="title__title-text">
+                            <span>
+                                What people thinks about us
                             </span>
                         </div>
-                        <div class="card-wrapper">
-                            <div class="card-container">
-                                <div class="card-type-wrapper">
-                                    <div class="card-type-one">
-                                        <div class="card-info-background-image">
-                                            <img
-                                                class = "image-blue-haven"
-                                                src   = "./img/main/info-card/info-card-image.svg"
-                                                alt   = "Hotel Blue Haven image"
-                                            >
-                                        </div>
-                                        <div class="card-info-content">
-                                            <div class="card-rating">
-                                                <img
-                                                    src = "./img/main/star.svg"
-                                                    alt = "Star icon"
-                                                >
-                                                <img
-                                                    src = "./img/main/star.svg"
-                                                    alt = "Star icon"
-                                                >
-                                                <img
-                                                    src = "./img/main/star.svg"
-                                                    alt = "Star icon"
-                                                >
-                                                <img
-                                                    src = "./img/main/star.svg"
-                                                    alt = "Star icon"
-                                                >
-                                                <img
-                                                    src = "./img/main/star.svg"
-                                                    alt = "Star icon"
-                                                >
-                                            </div>
-                                            <h2 class="card-info-title">
-                                                Hotel Blue Haven
-                                            </h2>
-                                            <p class="card-info-content__text">
-                                                Aute quis duis excepteur excepteur ipsum cat eiusmod consectetur enim
-                                                laborum magna llit. Ipsum est fugiat velit ea llamco do esse ut
-                                                in veniam sun in onsequat. Aute quis duis epteur excepteur ipsum occaecat
-                                                eiusmod nsectetur enim laborum magna mollit.
-                                                Ipsum est fugiat velit ea ullamco do
-                                            </p>
-                                            <div class="card-info-travel-info">
-                                                <div class="card-info-travel-info__info-item">
-                                                <span class="material-icons info-item-icon">
-                                                    location_on
-                                                </span>
-                                                    <span class="info-item__text">
-                                                    1749 Wheeler Ridge  Delaware
-                                                </span>
-                                                </div>
-                                                <div class="card-info-travel-info__info-item">
-                                                <span class="material-icons info-item-icon">
-                                                    person
-                                                </span>
-                                                    <span class="info-item__text">
-                                                    2 x Guests
-                                                </span>
-                                                </div>
-                                                <div class="card-info-travel-info__info-item">
-                                                <span class="material-icons info-item-icon">
-                                                    home
-                                                </span>
-                                                    <span class="info-item__text">
-                                                    1 x Room
-                                                </span>
-                                                </div>
-                                            </div>
-                                            <div class="card-info-book-block">
-                                                <div class="price-info">
-                                                    <div class="old-price">
-                                                        $ 10,500
-                                                    </div>
-                                                    <div class="current-price">
-                                                        $ 8,500
-                                                    </div>
-                                                </div>
-                                                <div class="button-control-container">
-                                                    <button class="button-control button-control-book-now">
-                                                    <span>
-                                                        Book Now
-                                                    </span>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card-type-wrapper card-type-wrapper-second">
-                                    <div class="card-type-two">
-                                        <div class="card-info-two-background-image">
-                                            <img
-                                                class = "image-belle-mare"
-                                                src   = "./img/main/info-card/info-card-image-1.svg"
-                                                alt   = "LUX Belle Mare image"
-                                            >
-                                        </div>
-                                        <div class="card-info-two-content">
-                                            <h2 class="card-info-two-title">
-                                                Hotel Blue Haven
-                                            </h2>
-                                            <div class="card-info-two-travel-info">
-                                                <div class="card-info-two-travel-info__info-item">
-                                                <span class="material-icons info-item-icon">
-                                                    location_on
-                                                </span>
-                                                    <span class="info-item__text">
-                                                    1749 Wheeler Ridge  Delaware
-                                                </span>
-                                                </div>
-                                                <div class="card-info-two-travel-info__info-item">
-                                                <span class="material-icons info-item-icon">
-                                                    person
-                                                </span>
-                                                    <span class="info-item__text">
-                                                    2 x Guests
-                                                </span>
-                                                </div>
-                                                <div class="card-info-two-travel-info__info-item">
-                                                <span class="material-icons info-item-icon">
-                                                    home
-                                                </span>
-                                                    <span class="info-item__text">
-                                                    1 x Room
-                                                </span>
-                                                </div>
-                                            </div>
-                                            <div class="card-info-two-book-block">
-                                                <div class="price-info">
-                                                    <div class="old-price">
-                                                        $ 10,500
-                                                    </div>
-                                                    <div class="current-price">
-                                                        $ 8,500
-                                                    </div>
-                                                </div>
-                                                <div class="button-control-container">
-                                                    <button class="button-control button-control-book-now">
-                                                <span>
-                                                    Book Now
-                                                </span>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-container card-container--second">
-                                <div class="card-type-wrapper">
-                                    <div class="card-type-two">
-                                        <div class="card-info-two-background-image">
-                                            <img
-                                                class = "image-belle-mare"
-                                                src   = "./img/main/info-card/info-card-image-1.svg"
-                                                alt   = "LUX Belle Mare image"
-                                            >
-                                        </div>
-                                        <div class="card-info-two-content">
-                                            <h2 class="card-info-two-title">
-                                                Hotel Blue Haven
-                                            </h2>
-                                            <div class="card-info-two-travel-info">
-                                                <div class="card-info-two-travel-info__info-item">
-                                                <span class="material-icons info-item-icon">
-                                                    location_on
-                                                </span>
-                                                    <span class="info-item__text">
-                                                    1749 Wheeler Ridge  Delaware
-                                                </span>
-                                                </div>
-                                                <div class="card-info-two-travel-info__info-item">
-                                                <span class="material-icons info-item-icon">
-                                                    person
-                                                </span>
-                                                    <span class="info-item__text">
-                                                    2 x Guests
-                                                </span>
-                                                </div>
-                                                <div class="card-info-two-travel-info__info-item">
-                                                <span class="material-icons info-item-icon">
-                                                    home
-                                                </span>
-                                                    <span class="info-item__text">
-                                                    1 x Room
-                                                </span>
-                                                </div>
-                                            </div>
-                                            <div class="card-info-two-book-block">
-                                                <div class="price-info">
-                                                    <div class="old-price">
-                                                        $ 10,500
-                                                    </div>
-                                                    <div class="current-price">
-                                                        $ 8,500
-                                                    </div>
-                                                </div>
-                                                <div class="button-control-container">
-                                                    <button class="button-control button-control-book-now">
-                                                <span>
-                                                    Book Now
-                                                </span>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card-type-wrapper">
-                                    <div class="card-type-two">
-                                        <div class="card-info-two-background-image">
-                                            <img
-                                                class = "image-belle-mare"
-                                                src   = "./img/main/info-card/info-card-image-1.svg"
-                                                alt   = "LUX Belle Mare image"
-                                            >
-                                        </div>
-                                        <div class="card-info-two-content">
-                                            <h2 class="card-info-two-title">
-                                                Hotel Blue Haven
-                                            </h2>
-                                            <div class="card-info-two-travel-info">
-                                                <div class="card-info-two-travel-info__info-item">
-                                                <span class="material-icons info-item-icon">
-                                                    location_on
-                                                </span>
-                                                    <span class="info-item__text">
-                                                    1749 Wheeler Ridge  Delaware
-                                                </span>
-                                                </div>
-                                                <div class="card-info-two-travel-info__info-item">
-                                                <span class="material-icons info-item-icon">
-                                                    person
-                                                </span>
-                                                    <span class="info-item__text">
-                                                    2 x Guests
-                                                </span>
-                                                </div>
-                                                <div class="card-info-two-travel-info__info-item">
-                                                <span class="material-icons info-item-icon">
-                                                    home
-                                                </span>
-                                                    <span class="info-item__text">
-                                                    1 x Room
-                                                </span>
-                                                </div>
-                                            </div>
-                                            <div class="card-info-two-book-block">
-                                                <div class="price-info">
-                                                    <div class="old-price">
-                                                        $ 10,500
-                                                    </div>
-                                                    <div class="current-price">
-                                                        $ 8,500
-                                                    </div>
-                                                </div>
-                                                <div class="button-control-container">
-                                                    <button class="button-control button-control-book-now">
-                                                <span>
-                                                    Book Now
-                                                </span>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card-type-wrapper">
-                                    <div class="card-type-two">
-                                        <div class="card-info-two-background-image">
-                                            <img
-                                                class = "image-belle-mare"
-                                                src   = "./img/main/info-card/info-card-image-1.svg"
-                                                alt   = "LUX Belle Mare image"
-                                            >
-                                        </div>
-                                        <div class="card-info-two-content">
-                                            <h2 class="card-info-two-title">
-                                                Hotel Blue Haven
-                                            </h2>
-                                            <div class="card-info-two-travel-info">
-                                                <div class="card-info-two-travel-info__info-item">
-                                                <span class="material-icons info-item-icon">
-                                                    location_on
-                                                </span>
-                                                    <span class="info-item__text">
-                                                    1749 Wheeler Ridge  Delaware
-                                                </span>
-                                                </div>
-                                                <div class="card-info-two-travel-info__info-item">
-                                                <span class="material-icons info-item-icon">
-                                                    person
-                                                </span>
-                                                    <span class="info-item__text">
-                                                    2 x Guests
-                                                </span>
-                                                </div>
-                                                <div class="card-info-two-travel-info__info-item">
-                                                <span class="material-icons info-item-icon">
-                                                    home
-                                                </span>
-                                                    <span class="info-item__text">
-                                                    1 x Room
-                                                </span>
-                                                </div>
-                                            </div>
-                                            <div class="card-info-two-book-block">
-                                                <div class="price-info">
-                                                    <div class="old-price">
-                                                        $ 10,500
-                                                    </div>
-                                                    <div class="current-price">
-                                                        $ 8,500
-                                                    </div>
-                                                </div>
-                                                <div class="button-control-container">
-                                                    <button class="button-control button-control-book-now">
-                                                <span>
-                                                    Book Now
-                                                </span>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </section>
-            <section class="people-reviews-wrapper">
-                <div class="container-mw">
-                    <section class="people-reviews">
-                        <div class="people-reviews__title">
-                            <div class="title__title-text">
-                                <span>
-                                    What people thinks about us
-                                </span>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="slider-review">
-                        <div class="slider-review-container">
+                    </div>
+                </section>
+                <section class="slider-review">
+                    <div class="slider-review-container">
+                        <div class="slider-review-wrapper">
                             <div class="slider-review__logo-wrapper">
-                                <div class="logo-container">
-                                    <img
-                                        class = "logo-container__logo-image"
-                                        src   = "./img/main/user-card/user-logo-card.svg"
-                                        alt   = "User logo"
-                                    >
-                                </div>
+                            <div class="logo-container">
+                                <img
+                                    class = "logo-container__logo-image"
+                                    src   = "./img/main/user-card/user-logo-card.svg"
+                                    alt   = "User logo"
+                                >
+                            </div>
 
-                                <div class="logo-info">
-                                    <span class="logo-info__name">
-                                        Megan Fox
-                                    </span>
-                                    <span class="logo-info__added-time">
-                                         Stayed 18 Nov, 2019
-                                    </span>
-                                    <div class="logo-info__star-review">
-                                        <img
-                                            src   = "./img/main/star.svg"
-                                            alt   = "Star icon"
-                                            class = "star-review__star-review-item"
-                                        >
-                                        <img
-                                            src   = "./img/main/star.svg"
-                                            alt   = "Star icon"
-                                            class = "star-review__star-review-item"
-                                        >
-                                        <img
-                                            src   = "./img/main/star.svg"
-                                            alt   = "Star icon"
-                                            class = "star-review__star-review-item"
-                                        >
-                                        <img
-                                            src   = "./img/main/star.svg"
-                                            alt   = "Star icon"
-                                            class="star-review__star-review-item"
-                                        >
-                                        <img
-                                            src   = "./img/main/star.svg"
-                                            alt   = "Star icon"
-                                            class = "star-review__star-review-item"
-                                        >
-                                    </div>
+                            <div class="logo-info">
+                                <span class="logo-info__name">
+                                    Megan Fox
+                                </span>
+                                <span class="logo-info__added-time">
+                                     Stayed 18 Nov, 2019
+                                </span>
+                                <div class="logo-info__star-review">
+                                    <img
+                                        src   = "./img/main/star.svg"
+                                        alt   = "Star icon"
+                                        class = "star-review__star-review-item"
+                                    >
+                                    <img
+                                        src   = "./img/main/star.svg"
+                                        alt   = "Star icon"
+                                        class = "star-review__star-review-item"
+                                    >
+                                    <img
+                                        src   = "./img/main/star.svg"
+                                        alt   = "Star icon"
+                                        class = "star-review__star-review-item"
+                                    >
+                                    <img
+                                        src   = "./img/main/star.svg"
+                                        alt   = "Star icon"
+                                        class="star-review__star-review-item"
+                                    >
+                                    <img
+                                        src   = "./img/main/star.svg"
+                                        alt   = "Star icon"
+                                        class = "star-review__star-review-item"
+                                    >
                                 </div>
                             </div>
+                        </div>
                             <div class="slider-review__content">
-                                <span class="content__text">
-                                    It was very nice hotel with cleanliness. Staff behavior was good and polite.
-                                    They welcome us very well. Issue was only that Lift was not in working and we
-                                    were allotted to 3rd floor and amenities articles were in corner of gallery which
-                                    were giving bad feeling. Breakfast was good and support of the staff was also very
-                                    nice. Location is not good as per atmosphere, it is very nearby most of the popular
-                                    places but self location in a narrow street is not good. Overall it was a good
-                                    experience and could recommend.
-                                </span>
-                            </div>
+                            <span class="content__text">
+                                It was very nice hotel with cleanliness. Staff behavior was good and polite.
+                                They welcome us very well. Issue was only that Lift was not in working and we
+                                were allotted to 3rd floor and amenities articles were in corner of gallery which
+                                were giving bad feeling. Breakfast was good and support of the staff was also very
+                                nice. Location is not good as per atmosphere, it is very nearby most of the popular
+                                places but self location in a narrow street is not good. Overall it was a good
+                                experience and could recommend.
+                            </span>
                         </div>
-                    </section>
-                </div>
-            </section>
-            <section class="subscribe-wrapper">
-                <div class="container-mw">
-                    <section class="subscribe">
-                        <div class="subscribe__text">
-                            <span class="text-item text-item--subscribe">subscribe to our</span>
-                            <span class="text-item text-item--newsletter">Newsletter</span>
                         </div>
-                        <div class="subscribe__control-input">
-                            <form action="" class="main-section__search-control">
-                                <div class="search-control__item">
-                                    <input
-                                        class       = "input-control input-control--newsletter"
-                                        type        = "text"
-                                        placeholder = "Search Location"
-                                    >
-                                    <button
-                                        class = "button-control button-control--newsletter"
-                                        type  = "submit"
-                                    >
-                                    <span>
-                                        Send
-                                    </span>
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
-                    </section>
-                </div>
-            </section>
-            <section class="other-activities-wrapper">
-                <div class="container-mw">
-                    <section class="other-activities">
-                        <div class="other-activities__title">
-                            <div class="title__text--other-activities">
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section class="subscribe-wrapper">
+            <div class="container-mw">
+                <section class="subscribe">
+                    <div class="subscribe__text">
+                        <span class="text-item text-item--subscribe">subscribe to our</span>
+                        <span class="text-item text-item--newsletter">Newsletter</span>
+                    </div>
+                    <div class="subscribe__control-input">
+                        <form action="" class="main-section__search-control">
+                            <div class="search-control__item">
+                                <input
+                                    class       = "input-control input-control--newsletter"
+                                    type        = "text"
+                                    placeholder = "Search Location"
+                                >
+                                <button
+                                    class = "button-control button-control--newsletter"
+                                    type  = "submit"
+                                >
                                 <span>
-                                    Other Activities
+                                    Send
                                 </span>
+                                </button>
                             </div>
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section class="other-activities-wrapper">
+            <div class="container-mw">
+                <section class="other-activities">
+                    <div class="other-activities__title">
+                        <div class="title__text--other-activities">
+                            <span>
+                                Other Activities
+                            </span>
                         </div>
-                        <div class="cards-wrapper">
-                            <div class="cards-container">
-                                <div class="card-activities-wrapper">
-                                    <div class="card-activities card-activities--one">
-                                        <div class="card-activities__title">
-                                            <div class="card-activities__title__text">
-                                                The curious corner of chamarel
-                                            </div>
-                                        </div>
-                                        <div class="button-cards-control-container">
-                                            <button class="button-control button-control--activities">
-                                                <span>
-                                                    Book Now
-                                                </span>
-                                            </button>
+                    </div>
+                    <div class="cards-wrapper">
+                        <div class="cards-container">
+                            <div class="card-activities-wrapper">
+                                <div class="card-activities card-activities--one">
+                                    <div class="card-activities__title">
+                                        <div class="card-activities__title__text">
+                                            The curious corner of chamarel
                                         </div>
                                     </div>
-                                </div>
-                                <div class="card-activities-wrapper">
-                                    <div class="card-activities card-activities--two">
-                                        <div class="card-activities__title">
-                                            <div class="card-activities__title__text">
-                                                The curious corner of chamarel
-                                            </div>
-                                        </div>
-                                        <div class="button-cards-control-container">
-                                            <button class="button-control button-control--activities">
-                                                <span>
-                                                    Book Now
-                                                </span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card-activities-wrapper">
-                                    <div class="card-activities card-activities--three">
-                                        <div class="card-activities__title">
-                                            <div class="card-activities__title__text">
-                                                The curious corner of chamarel
-                                            </div>
-                                        </div>
-                                        <div class="button-cards-control-container">
-                                            <button class="button-control button-control--activities">
-                                                <span>
-                                                    Book Now
-                                                </span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card-activities-wrapper">
-                                    <div class="card-activities card-activities--forth">
-                                        <div class="card-activities__title">
-                                            <div class="card-activities__title__text">
-                                                The curious corner of chamarel
-                                            </div>
-                                        </div>
-                                        <div class="button-cards-control-container">
-                                            <button class="button-control button-control--activities">
-                                                <span>
-                                                    Book Now
-                                                </span>
-                                            </button>
-                                        </div>
+                                    <div class="button-cards-control-container">
+                                        <button class="button-control button-control--activities">
+                                            <span>
+                                                Book Now
+                                            </span>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
+                            <div class="card-activities-wrapper">
+                                <div class="card-activities card-activities--two">
+                                    <div class="card-activities__title">
+                                        <div class="card-activities__title__text">
+                                            The curious corner of chamarel
+                                        </div>
+                                    </div>
+                                    <div class="button-cards-control-container">
+                                        <button class="button-control button-control--activities">
+                                            <span>
+                                                Book Now
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-activities-wrapper">
+                                <div class="card-activities card-activities--three">
+                                    <div class="card-activities__title">
+                                        <div class="card-activities__title__text">
+                                            The curious corner of chamarel
+                                        </div>
+                                    </div>
+                                    <div class="button-cards-control-container">
+                                        <button class="button-control button-control--activities">
+                                            <span>
+                                                Book Now
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-activities-wrapper">
+                                <div class="card-activities card-activities--forth">
+                                    <div class="card-activities__title">
+                                        <div class="card-activities__title__text">
+                                            The curious corner of chamarel
+                                        </div>
+                                    </div>
+                                    <div class="button-cards-control-container">
+                                        <button class="button-control button-control--activities">
+                                            <span>
+                                                Book Now
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </section>
-                </div>
-            </section>
+                    </div>
+                </section>
+            </div>
         </section>
     </main>
 
@@ -1346,14 +1368,46 @@
                             </div>
                             <div class="links-container__links__list">
                                 <ul class="links-container__links__list__ul-container">
-                                    <li class="links-container__links__list__li-item">All Deals</li>
-                                    <li class="links-container__links__list__li-item">Hotels</li>
-                                    <li class="links-container__links__list__li-item">Activities</li>
-                                    <li class="links-container__links__list__li-item">Spa Packages</li>
-                                    <li class="links-container__links__list__li-item">Hotel Day Packages</li>
-                                    <li class="links-container__links__list__li-item">Restaurants</li>
-                                    <li class="links-container__links__list__li-item">Fitness</li>
-                                    <li class="links-container__links__list__li-item">Rodrigues</li>
+                                    <li class="links-container__links__list__li-item">
+                                        <a href="#">
+                                            All Deals
+                                        </a>
+                                    </li>
+                                    <li class="links-container__links__list__li-item">
+                                        <a href="#">
+                                            Hotels
+                                        </a>
+                                    </li>
+                                    <li class="links-container__links__list__li-item">
+                                        <a href="#">
+                                            Activities
+                                        </a>
+                                    </li>
+                                    <li class="links-container__links__list__li-item">
+                                        <a href="#">
+                                            Spa Packages
+                                        </a>
+                                    </li>
+                                    <li class="links-container__links__list__li-item">
+                                        <a href="#">
+                                            Hotel Day Packages
+                                        </a>
+                                    </li>
+                                    <li class="links-container__links__list__li-item">
+                                        <a href="#">
+                                            Restaurants
+                                        </a>
+                                    </li>
+                                    <li class="links-container__links__list__li-item">
+                                        <a href="#">
+                                            Fitness
+                                        </a>
+                                    </li>
+                                    <li class="links-container__links__list__li-item">
+                                        <a href="#">
+                                            Rodrigues
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -1365,25 +1419,55 @@
                             </div>
                             <div class="links-container__links__list">
                                 <ul class="links-container__links__list__ul-container">
-                                    <li class="links-container__links__list__li-item">About Us</li>
-                                    <li class="links-container__links__list__li-item">Contact Us</li>
-                                    <li class="links-container__links__list__li-item">How does it work?</li>
-                                    <li class="links-container__links__list__li-item">Frequently Asked Questions</li>
-                                    <li class="links-container__links__list__li-item">Deals.mu loyalty program</li>
-                                    <li class="links-container__links__list__li-item">Promote your Business on BTP</li>
+                                    <li class="links-container__links__list__li-item">
+                                        <a href="#">
+                                            About Us
+                                        </a>
+                                    </li>
+                                    <li class="links-container__links__list__li-item">
+                                        <a href="#">
+                                            Contact Us
+                                        </a>
+                                    </li>
+                                    <li class="links-container__links__list__li-item">
+                                        <a href="#">
+                                            How does it work?
+                                        </a>
+                                    </li>
+                                    <li class="links-container__links__list__li-item">
+                                        <a href="#">
+                                            Frequently Asked Questions
+                                        </a>
+                                    </li>
+                                    <li class="links-container__links__list__li-item">
+                                        <a href="#">
+                                            Deals.mu loyalty program
+                                        </a>
+                                    </li>
+                                    <li class="links-container__links__list__li-item">
+                                        <a href="#">
+                                            Promote your Business on BTP
+                                        </a>
+                                    </li>
                                 </ul>
 
                                 <div class="links-container__links__list__social-network-container">
                                     <span class="social-network-container__title">Social Network</span>
-                                    <span class="material-icons social-network-container--social-item">
-                                        facebook
-                                    </span>
-                                    <span class="material-icons social-network-container--social-item">
-                                        play_circle
-                                    </span>
-                                    <span class="material-icons social-network-container--social-item">
-                                        photo_camera
-                                    </span>
+                                    <a href="#" class="social-network-container--social-link">
+                                        <span class="material-icons social-network-container--social-item">
+                                            facebook
+                                        </span>
+                                    </a>
+                                    <a href="#" class="social-network-container--social-link">
+                                        <span class="material-icons social-network-container--social-item">
+                                            play_circle
+                                        </span>
+                                    </a>
+                                    <a href="#" class="social-network-container--social-link">
+                                        <span class="material-icons social-network-container--social-item">
+                                            photo_camera
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -1395,10 +1479,26 @@
                             </div>
                             <div class="links-container__links__list">
                                 <ul class="links-container__links__list__ul-container">
-                                    <li class="links-container__links__list__li-item">Terms & Conditions </li>
-                                    <li class="links-container__links__list__li-item">Disclaimer</li>
-                                    <li class="links-container__links__list__li-item">Cancellation policy</li>
-                                    <li class="links-container__links__list__li-item">Privacy</li>
+                                    <li class="links-container__links__list__li-item">
+                                        <a href="#">
+                                            Terms & Conditions
+                                        </a>
+                                    </li>
+                                    <li class="links-container__links__list__li-item">
+                                        <a href="#">
+                                            Disclaimer
+                                        </a>
+                                    </li>
+                                    <li class="links-container__links__list__li-item">
+                                        <a href="#">
+                                            Cancellation policy
+                                        </a>
+                                    </li>
+                                    <li class="links-container__links__list__li-item">
+                                        <a href="#">
+                                            Privacy
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -1406,32 +1506,46 @@
                 </div>
                 <div class="footer-container-info-form-wrapper">
                     <section class="footer__info-form-container">
-                        <div class="info-form-container__contact-details">
+                        <address class="info-form-container__contact-details">
                             <div class="contact-details__title">
-                                <span class="contact-details__title__text">
-                                    contact details
-                                </span>
-                                <span class="contact-details__sub-title__text">
-                                     Feel free to contact us by phone, email or by our contact form
-                                </span>
+                                    <span class="contact-details__title__text">
+                                        contact details
+                                    </span>
+                                    <span class="contact-details__sub-title__text">
+                                         Feel free to contact us by phone, email or by our contact form
+                                    </span>
                             </div>
-                            <div class="contact-details__content">
-                                <div class="content__content-item">
-                                    <span class="material-icons">
-                                        location_on
-                                    </span>
-                                    <span class="content-item__text">
-                                        9748 Blossom Hill Rd undefined Lansing, Idaho 68545 United States
-                                    </span>
-                                </div>
-                                <div class="content__content-item">
-                                    <span class="material-icons">
-                                        phone_in_talk
-                                    </span>
-                                    <div class="content-item__phone-list">
-                                        <span>Tel (business hours) : 269 1500</span>
-                                        <span>Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am – 20:00 pm)</span>
-                                        <span>Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)</span>
+                                <div class="contact-details__content">
+                                    <div class="content__content-item">
+                                        <span class="material-icons">
+                                            location_on
+                                        </span>
+                                        <span class="content-item__text">
+                                            9748 Blossom Hill Rd undefined Lansing, Idaho 68545 United States
+                                        </span>
+                                    </div>
+                                    <div class="content__content-item">
+                                        <span class="material-icons">
+                                            phone_in_talk
+                                        </span>
+                                        <div class="content-item__phone-list">
+                                            <span>Tel (business hours) :
+                                                <a href="#">
+                                                    269 1500
+                                                </a>
+                                            </span>
+                                            <span>Tel (hotline) Monday - Saturday:
+                                                <a href="#">
+                                                    52-56-61-38
+                                                </a>
+                                                (08:00 am – 20:00 pm)
+                                            </span>
+                                            <span>Tel (hotline) Sunday:
+                                                <a href="#">
+                                                    52-56-61-38
+                                                </a>
+                                                (08:00 am – 14:00 pm)
+                                            </span>
                                     </div>
                                 </div>
                                 <div class="content__content-item">
@@ -1439,11 +1553,11 @@
                                         email
                                     </span>
                                     <span class="content-item__text">
-                                         cherly.lawson@example.com
+                                     cherly.lawson@example.com
                                     </span>
                                 </div>
                             </div>
-                        </div>
+                        </address>
                         <div class="info-form-container__form-send-message">
                             <form
                                 action = ""

@@ -15,22 +15,26 @@
     border-radius: 6px;
 }
 
-/*.card-activities:after {*/
-/*    position: absolute;*/
-/*    content: "";*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    top: 0;*/
-/*    right: 0;*/
+.card-activities:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
 
-/*    background: linear-gradient(179.83deg, rgba(253, 253, 253, 0) 35.34%, #0A223D 99.85%);*/
-/*}*/
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%);
+}
 
 .card-activities__title__text {
     color: var(--white-common-background-color);
     font-size: 1.6rem;
     line-height: 2rem;
     margin-bottom: 18px;
+}
+
+.button-cards-control-container, .card-activities__title {
+    z-index: 1;
 }
 
 .card-activities--one {

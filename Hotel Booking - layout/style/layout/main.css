@@ -237,7 +237,10 @@ span.info-block__icon {
 
 .card-wrapper {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin: -11px;
 }
 
 .card-container {
@@ -254,7 +257,7 @@ span.info-block__icon {
 .card-type-wrapper{
     display: flex;
 
-    padding: 13px;
+    padding: 11px;
 }
 
 /* PEOPLE REVIEW */
@@ -285,6 +288,30 @@ span.info-block__icon {
     margin: 115px 0 70px;
     padding: 54px 95px 30px 95px;
     background-color: var(--white-color);
+}
+
+.slider-review-wrapper {
+    position: relative;
+}
+
+.slider-review-wrapper:before {
+    position: absolute;
+    content: "";
+    background-image: url("../../img/main/quotes.svg");
+    width: 70px;
+    height: 49px;
+    top: -30px;
+    left: -30px;
+}
+
+.slider-review-wrapper:after {
+    position: absolute;
+    content: "";
+    background-image: url("../../img/main/quotes180.svg");
+    width: 70px;
+    height: 49px;
+    bottom: 100px;
+    right: -30px;
 }
 
 .logo-container {
@@ -445,7 +472,7 @@ span.info-block__icon {
 
 @media only screen and (max-width: 1110px) {
     .content-hotel-wrapper, .navigation-hotel-wrapper, .package-info-hotel-wrapper, .other-packages-wrapper,
-    .people-reviews-wrapper, .subscribe-wrapper
+    .people-reviews-wrapper
     {
         padding: 0 40px;
     }
@@ -480,7 +507,7 @@ span.info-block__icon {
     }
 
     .hotel-map-price-info {
-       display: flex;
+        display: flex;
         justify-content: space-evenly;
     }
 
@@ -503,10 +530,6 @@ span.info-block__icon {
 
     .card-container {
         justify-content: center;
-    }
-
-    .card-type-wrapper-second {
-        display: none;
     }
 }
 
@@ -584,5 +607,29 @@ span.info-block__icon {
 
     .search-control__item {
         min-width: 270px;
+    }
+
+    .title-text--other-packages {
+        margin-bottom: 30px;
+    }
+
+    .other-packages {
+        padding: 30px 0;
+    }
+
+    .people-reviews__title {
+        margin-top: 20px;
+    }
+
+    .slider-review-container {
+        margin-top: 50px;
+    }
+
+    .cards-wrapper {
+        margin: 30px 0;
+    }
+
+    .package-info-hotel-wrapper, .other-packages-wrapper {
+        padding: 0 20px;
     }
 }
