@@ -1697,17 +1697,28 @@
                                     <div class="inputs-container">
                                         <div class="input-wrapper">
                                             <input
+                                                id          = "name"
                                                 class       = "input-control input-control--footer-section"
                                                 type        = "text"
-                                                placeholder = "Your full name*"
+                                                placeholder = "Name*"
+                                                required
                                             >
+                                            <div class="requirements">
+                                                Must be filled by value.
+                                            </div>
                                         </div>
                                         <div class="input-wrapper">
                                             <input
+                                                id          = "email"
                                                 class       = "input-control input-control--footer-section"
-                                                type        = "text"
-                                                placeholder = "Phone Number"
+                                                type        = "email"
+                                                placeholder = "Email*"
+                                                pattern     = "[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"
+                                                required
                                             >
+                                            <div class="requirements">
+                                                Must be a valid email address.
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

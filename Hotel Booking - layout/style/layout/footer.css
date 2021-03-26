@@ -203,6 +203,7 @@
     padding: 15px;
 
     display: flex;
+    flex-direction: column;
     flex-grow: 1;
 
     min-width: 255px;
@@ -255,6 +256,35 @@
 
 .info-form-container__contact-details, .info-form-container__form-send-message {
     padding: 10px;
+}
+
+input[type="text"]:valid,
+input[type="email"]:valid {
+    border: 2px solid var(--green-text-color);
+}
+
+input[type="text"]:invalid:not(:focus):not(:placeholder-shown),
+input[type="email"]:invalid:not(:focus):not(:placeholder-shown) {
+    border: 2px solid var(--red-text-color);
+}
+
+input[type="text"]:invalid:focus {
+    border: 2px solid var(--red-text-color);
+}
+
+input[type="email"]:invalid:not(:placeholder-shown) ~ .requirements,
+input[type="text"]:invalid:not(:placeholder-shown) ~ .requirements {
+    max-height: 200px;
+    padding: 10px 0 0;
+}
+
+.requirements {
+    padding: 10px 0 0;
+    max-height: 0;
+    transition: 0.28s;
+    overflow: hidden;
+    color: red;
+    font-style: italic;
 }
 
 @media only screen and (max-width: 1110px) {
