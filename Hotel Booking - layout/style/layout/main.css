@@ -642,7 +642,6 @@ span.info-block__icon {
     }
 
     .slider-review__content {
-        max-height: 200px;
         overflow-y: scroll;
         min-width: 120px;
     }
