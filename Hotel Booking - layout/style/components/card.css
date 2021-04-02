@@ -18,6 +18,8 @@
     min-height: 200px;
 
     background-color: var(--white-color);
+
+    border-radius: 0 0 4px 4px;
 }
 
 .card__main-container {
