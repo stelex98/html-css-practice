@@ -1,37 +1,32 @@
-const bookNowCollection = document.getElementsByClassName("button-control-book-now");
-const modal = document.getElementsByClassName("modal");
-const mainTextModalContent = document.getElementsByClassName("modal__text-content");
-const mainImageContent = document.getElementsByClassName("modal__image");
-const closeModalButton = document.getElementsByClassName("close-modal-button");
+const infoDialog = document.getElementById('info-dialog');
+const dialogCard = infoDialog.querySelector('.dialog');
+const infoDialogTriggers = document.querySelectorAll('[data-target="info-dialog"]');
+const infoDialogCloseTriggers = document.querySelectorAll('[data-target-close="info-dialog"]');
 
-closeModalButton[0].addEventListener("click", hideModal);
+for (const closeTrigger of infoDialogCloseTriggers) {
+    closeTrigger.addEventListener('click', () => {
+        const targetElem = document.getElementById(closeTrigger.dataset.targetClose);
 
-for(const item of bookNowCollection) {
-    item.addEventListener("click", bookModal)
+        targetElem.style.display = 'none';
+
+        // enable scroll
+        document.body.style.overflow = 'visible';
+    });
 }
 
-function bookModal(event) {
-    const outerHtmlOfActiveCard = event.target.parentElement.parentElement.parentElement.outerHTML;
-    const activeChildrenCard = event.target.parentElement.parentElement.parentElement.parentElement.parentElement.children;
-    let imageSrc = null;
+window.addEventListener('click', event => {
+    const isDialogTriggerClicked = [...infoDialogTriggers].some(
+        dialogTrigger => dialogTrigger.contains(event.target)
+    )
 
-    if (activeChildrenCard[0].children[0].children.length) {
-        imageSrc = activeChildrenCard[0].children[0].children[0].src;
-    } else {
-        imageSrc = activeChildrenCard[0].children[0].src;
+    if (isDialogTriggerClicked) {
+        infoDialog.style.display = 'flex';
+
+        // disable scroll
+        document.body.style.overflow = 'hidden';
     }
+    else if (!dialogCard.contains(event.target)) {
+        infoDialog.style.display = 'none';
+    }
+});
 
-    showModal(imageSrc, outerHtmlOfActiveCard);
-
-}
-
-function showModal(src = '', outerHtmlOfActiveCard = '') {
-    mainImageContent[0].children[0].src = src;
-    mainTextModalContent[0].innerHTML = outerHtmlOfActiveCard;
-
-    modal[0].classList.add("show-modal");
-}
-
-function hideModal() {
-    modal[0].classList.remove("show-modal");
-}

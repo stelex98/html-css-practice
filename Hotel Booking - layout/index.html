@@ -905,7 +905,10 @@
                                             </div>
                                         </div>
                                         <div class="button-control-container">
-                                            <button class="button-control button-control-book-now">
+                                            <button
+                                                class       = "button-control button-control-book-now"
+                                                data-target = "info-dialog"
+                                            >
                                                 <span>
                                                     Book Now
                                                 </span>
@@ -1800,7 +1803,26 @@
             </button>
         </div>
     </div>
+
+    <div id="info-dialog" class="modal">
+        <div class="dialog">
+            <button
+                data-target-close = "info-dialog"
+                class             = "dialog-close-btn"
+            >
+                &times;
+            </button>
+            <h2 class="modal__title">
+                Dialog title
+            </h2>
+            <p class="modal__content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
+                corporis nobis recusandae eveniet, voluptatibus, distinctio nesciunt earum delectus
+                minima quidem molestias vitae laboriosam? Dolorem eum sed odit ea quidem doloremque.
+            </p>
+        </div>
+    </div>
+    <script src="js/slider.js"></script>
+    <script src="js/modal.js"></script>
 </body>
-<script src="js/slider.js"></script>
-<script src="js/modal.js"></script>
 </html>
