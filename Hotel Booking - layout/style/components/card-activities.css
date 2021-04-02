@@ -15,17 +15,6 @@
     border-radius: 6px;
 }
 
-.card-activities:after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    top: 0;
-    right: 0;
-
-    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%);
-}
-
 .card-activities__title__text {
     color: var(--white-common-background-color);
     font-size: 1.6rem;
@@ -38,17 +27,21 @@
 }
 
 .card-activities--one {
-    background-image: url("../../img/main/other-activities/other-activities-bg-1.svg");
+    background-image: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%),
+                      url("../../img/main/other-activities/other-activities-bg-1.svg");
 }
 
 .card-activities--two {
-    background-image: url("../../img/main/other-activities/other-activities-bg-2.svg");
+    background-image: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%),
+                      url("../../img/main/other-activities/other-activities-bg-2.svg");
 }
 
 .card-activities--three {
-    background-image: url("../../img/main/other-activities/other-activities-bg-3.svg");
+    background-image: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%),
+                      url("../../img/main/other-activities/other-activities-bg-3.svg");
 }
 
 .card-activities--forth {
-    background-image: url("../../img/main/other-activities/other-activities-bg-4.svg");
+    background-image: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%),
+                      url("../../img/main/other-activities/other-activities-bg-4.svg");
 }
