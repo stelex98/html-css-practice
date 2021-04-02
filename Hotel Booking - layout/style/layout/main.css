@@ -92,7 +92,6 @@
     flex-direction: column;
     justify-content: space-between;
 
-    min-width: 320px;
     padding: 15px;
     margin: -15px;
 }
@@ -161,6 +160,8 @@ span.info-block__icon {
 }
 
 .price-info__button-container {
+    display: flex;
+    justify-content: center;
     margin-top: 17px;
 }
 
@@ -500,6 +501,10 @@ span.info-block__icon {
     opacity: 1;
 }
 
+.hotel-map-price-info__map-info > img {
+    width: 100%;
+}
+
 /* MOBILE VERSION */
 
 @media only screen and (max-width: 1110px) {
@@ -586,7 +591,6 @@ span.info-block__icon {
     }
 
     .price-info__button-container {
-        width: 300px;
         margin: 30px auto 0;
     }
 

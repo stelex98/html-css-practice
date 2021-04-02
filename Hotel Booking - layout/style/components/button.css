@@ -26,8 +26,8 @@
     font-size: 1.4rem;
     line-height: 1.9rem;
     padding: 13px 84px;
-    min-width: 245px;
     max-height: 45px;
+    max-width: 320px;
 }
 
 .button-control-book-now {
@@ -58,4 +58,10 @@
     padding: 18px 65px;
 
     max-width: 160px;
+}
+
+@media only screen and (max-width: 570px) {
+    .button--view-other-options {
+        padding: 10px 10px;
+    }
 }
