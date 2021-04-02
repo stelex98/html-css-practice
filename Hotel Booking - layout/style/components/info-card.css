@@ -100,7 +100,7 @@
 .card-type-two {
     display: flex;
     flex-direction: column;
-
+    width: 100%;
     border-radius: 8px;
     background-color: var(--blue-common-background-color);
 }
@@ -151,13 +151,21 @@
 }
 
 @media only screen and (max-width: 800px) {
+    .card-type-wrapper {
+        flex-grow: 1;
+    }
+
     .card-type-one {
         display: flex;
         flex-direction: column;
+
+        width: 100%;
     }
 
     .image-blue-haven {
+        object-fit: cover;
         width: 100%;
+        height: 300px;
     }
 
     .other-activities-wrapper {
@@ -171,6 +179,13 @@
     .cards-container {
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .card-info-title, .card-rating {
+        align-self: center;
+    }
+
+    .card-info-content__text {
+        max-width: 100%;
     }
 }
 
