@@ -50,6 +50,10 @@
     color: inherit;
 }
 
+.basket-goods-item__link-block {
+    display: block;
+}
+
 .item-gift__gift-link:hover, .item-phone__phone-link:hover, .item-bookmark__bookmark-link:hover {
     text-decoration: underline;
 }
